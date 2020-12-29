@@ -2,19 +2,29 @@
 
 public class Bonus : MonoBehaviour
 {
-	float throwForce = 5f;
-	float multiplier = 1.2f;
+	[SerializeField] float throwForce = 5f;
+	[SerializeField] float multiplier = 1.2f;
 
-	bool activateBonus;
+	[Tooltip("Time in seconds until next scene loads")][SerializeField] float startingTime = 4f;
+	float timer = 0;
+
+	[HideInInspector] public bool activateBonus;
+	bool forceAdded;
 
 	PlayerController playerController;
 
 	private void Start()
 	{
 		playerController = FindObjectOfType<PlayerController>();
+		timer = startingTime;
+	}
+	private void Update()
+	{
+		BonusTimer();
 	}
 	private void FixedUpdate()
 	{
+		if(forceAdded) { return; }
 		ThrowDistance();
 	}
 	private void OnTriggerEnter(Collider other)
@@ -32,7 +42,20 @@ public class Bonus : MonoBehaviour
 			for (int weight = 0; weight < playerController._weight; weight++)
 			{
 				throwForce /= multiplier;
-				print(throwForce);
+			}
+			forceAdded = true;
+		}
+	}
+	void BonusTimer()
+	{
+		if (activateBonus)
+		{
+			timer -= Time.deltaTime;
+
+			if (timer <= 0)
+			{
+				timer = startingTime;
+				StartCoroutine(playerController.NextLevel());
 			}
 		}
 	}

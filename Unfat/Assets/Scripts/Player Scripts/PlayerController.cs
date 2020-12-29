@@ -60,6 +60,7 @@ public class PlayerController : MonoBehaviour
 		}
 		else if (!_canMove && !_finish)
 		{
+			if(FindObjectOfType<Bonus>().activateBonus) { return; }
 			if (Input.GetMouseButtonDown(0))
 			{
 				FindObjectOfType<GameManager>().RemoveUI();
@@ -134,12 +135,12 @@ public class PlayerController : MonoBehaviour
 	{
 		transform.localScale = new Vector3(scale, scale, scale);
 	}
-	private IEnumerator NextLevel()
+	public IEnumerator NextLevel()
 	{
 		_finish = true;
 		_canMove = false;
 		PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level", 1) + 1);
-		yield return new WaitForSeconds(1f);
+		yield return new WaitForSeconds(0f);
 		SceneManager.LoadScene("Level" + PlayerPrefs.GetInt("Level"));
 	}
 
