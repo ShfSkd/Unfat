@@ -86,11 +86,7 @@ public class PlayerController : MonoBehaviour
 				Vector3 moveForce = Vector3.ClampMagnitude(pos, _clampDelta);
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 				_rb.AddForce(-moveForce * _sensitivity - (_rb.velocity / _speed)/2, ForceMode.VelocityChange);
-=======
-				_rb.AddForce(-moveForce * _sensitivity - _rb.velocity / speed, ForceMode.VelocityChange);
->>>>>>> Stashed changes
 =======
 				_rb.AddForce(-moveForce * _sensitivity - _rb.velocity / speed, ForceMode.VelocityChange);
 >>>>>>> Stashed changes
