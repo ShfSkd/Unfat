@@ -95,6 +95,7 @@ public class PlayerController : MonoBehaviour
 				Vector3 moveForce = Vector3.ClampMagnitude(pos, _clampDelta);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -111,6 +112,9 @@ public class PlayerController : MonoBehaviour
 =======
 				_rb.AddForce(-moveForce * _sensitivity - _rb.velocity / _speed, ForceMode.VelocityChange);
 >>>>>>> parent of d8e1053... Take 4
+=======
+				_rb.AddForce(-moveForce * _sensitivity - (_rb.velocity / _speed)/2, ForceMode.VelocityChange);
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 				_rb.AddForce(-moveForce * _sensitivity - (_rb.velocity / _speed)/2, ForceMode.VelocityChange);
 >>>>>>> parent of f75f5c2... yalla 2

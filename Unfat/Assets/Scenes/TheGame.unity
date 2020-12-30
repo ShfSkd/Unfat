@@ -211,6 +211,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
@@ -395,6 +396,8 @@ PrefabInstance:
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
 >>>>>>> parent of d8e1053... Take 4
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
 --- !u!1001 &27454449
@@ -842,6 +845,7 @@ Transform:
   m_PrefabInstance: {fileID: 1553822071}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -896,6 +900,8 @@ Transform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
 --- !u!1001 &61740353
@@ -2176,6 +2182,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67944548f2b4254ca38842e067514d6, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -2224,6 +2231,8 @@ Transform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
 --- !u!4 &190433088 stripped
@@ -4662,6 +4671,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 --- !u!1001 &473180637
@@ -4732,6 +4742,9 @@ PrefabInstance:
 =======
 --- !u!1001 &479768268
 >>>>>>> parent of f75f5c2... yalla 2
+=======
+--- !u!1001 &479768268
+>>>>>>> parent of f75f5c2... yalla 2
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -4783,6 +4796,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
@@ -4990,6 +5004,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
     - target: {fileID: 7548910107883308592, guid: f4d7a63b71c6e1d4086a57eecd2376b2,
@@ -5353,6 +5369,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4168956565481560709, guid: ef16d78ccfecc2546b7b0be1e5194625,
         type: 3}
@@ -5387,6 +5404,8 @@ PrefabInstance:
       value: 0
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of f75f5c2... yalla 2
       objectReference: {fileID: 0}
     - target: {fileID: 4168956565481560709, guid: ef16d78ccfecc2546b7b0be1e5194625,
         type: 3}
@@ -5449,6 +5468,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1919347099714399863, guid: ef16d78ccfecc2546b7b0be1e5194625, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ef16d78ccfecc2546b7b0be1e5194625, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -5771,6 +5791,8 @@ Transform:
   m_PrefabInstance: {fileID: 493944651}
   m_PrefabAsset: {fileID: 0}
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
 --- !u!1001 &494504429
@@ -6384,6 +6406,7 @@ Transform:
   m_PrefabInstance: {fileID: 1861051025}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -6473,6 +6496,8 @@ PrefabInstance:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of f75f5c2... yalla 2
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 --- !u!4 &542943700 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3877218543073260879, guid: 85c5a719b0ef3e647b2ba3e97e5ebab9,
@@ -6485,6 +6510,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2106771009}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
@@ -6577,6 +6603,8 @@ PrefabInstance:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
 --- !u!1001 &562920972
@@ -7348,6 +7376,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4168956565481560709, guid: ef16d78ccfecc2546b7b0be1e5194625,
         type: 3}
@@ -7382,6 +7411,8 @@ PrefabInstance:
       value: 0
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of f75f5c2... yalla 2
       objectReference: {fileID: 0}
     - target: {fileID: 4168956565481560709, guid: ef16d78ccfecc2546b7b0be1e5194625,
         type: 3}
@@ -8519,6 +8550,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4d7a63b71c6e1d4086a57eecd2376b2, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -8567,6 +8599,8 @@ Transform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
 --- !u!1001 &766210025
@@ -9121,6 +9155,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4d7a63b71c6e1d4086a57eecd2376b2, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -9151,6 +9186,8 @@ Transform:
 =======
 --- !u!4 &836638051 stripped
 =======
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 --- !u!4 &836638051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
@@ -9163,6 +9200,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2019370828}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
@@ -9197,6 +9235,8 @@ Transform:
   m_PrefabInstance: {fileID: 1123128614}
   m_PrefabAsset: {fileID: 0}
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
 --- !u!4 &850229148 stripped
@@ -9569,6 +9609,7 @@ PrefabInstance:
     - target: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
         type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
@@ -9806,6 +9847,8 @@ PrefabInstance:
     - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
 =======
 >>>>>>> parent of f75f5c2... yalla 2
+=======
+>>>>>>> parent of f75f5c2... yalla 2
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
@@ -9847,8 +9890,12 @@ PrefabInstance:
     m_RemovedComponents: []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
 >>>>>>> Stashed changes
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: a67944548f2b4254ca38842e067514d6, type: 3}
+>>>>>>> parent of f75f5c2... yalla 2
 =======
   m_SourcePrefab: {fileID: 100100000, guid: a67944548f2b4254ca38842e067514d6, type: 3}
 >>>>>>> parent of f75f5c2... yalla 2
@@ -11899,6 +11946,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
         type: 3}
+<<<<<<< HEAD
       propertyPath: m_LocalPosition.x
       value: -1
       objectReference: {fileID: 0}
@@ -12270,29 +12318,41 @@ PrefabInstance:
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
+=======
+>>>>>>> parent of f75f5c2... yalla 2
       propertyPath: m_LocalPosition.x
-      value: 2.82
+      value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
+    - target: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
+        type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.43
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
+    - target: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
+        type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 7.38
+=======
+      value: 1.5
+>>>>>>> parent of f75f5c2... yalla 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
+    - target: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
+    - target: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
+    - target: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -12302,17 +12362,34 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
+=======
+    - target: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
+        type: 3}
+>>>>>>> parent of f75f5c2... yalla 2
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
+    - target: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
+    - target: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
       propertyPath: m_LocalScale.y
       value: 5
@@ -12347,6 +12424,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1134866565
 >>>>>>> parent of dffa5c0... Yalla
+=======
+    - target: {fileID: 7689235610816381059, guid: a67944548f2b4254ca38842e067514d6,
+        type: 3}
+      propertyPath: m_Name
+      value: Triangle (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a67944548f2b4254ca38842e067514d6, type: 3}
+--- !u!1001 &1142614382
+>>>>>>> parent of f75f5c2... yalla 2
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -12762,6 +12849,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1649414200}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!4 &1219904399 stripped
@@ -12925,6 +13013,9 @@ Transform:
 --- !u!4 &1213031527 stripped
 >>>>>>> parent of dffa5c0... Yalla
 >>>>>>> Stashed changes
+=======
+--- !u!4 &1219904399 stripped
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 --- !u!4 &1219904399 stripped
 >>>>>>> parent of f75f5c2... yalla 2
@@ -13695,6 +13786,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
@@ -13791,6 +13883,8 @@ PrefabInstance:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of d8e1053... Take 4
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
 --- !u!1001 &1350134576
@@ -14865,6 +14959,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -14883,6 +14978,8 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0550765fb22bb954ea0412b7153ff417, type: 3}
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
   m_SourcePrefab: {fileID: 100100000, guid: a67944548f2b4254ca38842e067514d6, type: 3}
@@ -14905,6 +15002,7 @@ Transform:
   m_PrefabInstance: {fileID: 1989338729}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -14917,6 +15015,8 @@ Transform:
 =======
 >>>>>>> parent of dffa5c0... Yalla
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
 --- !u!4 &1518008605 stripped
@@ -15259,6 +15359,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_Children: []
 =======
@@ -15318,6 +15419,9 @@ Transform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of d8e1053... Take 4
+=======
+  m_Children: []
+>>>>>>> parent of f75f5c2... yalla 2
 =======
   m_Children: []
 >>>>>>> parent of f75f5c2... yalla 2
@@ -15569,6 +15673,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a67944548f2b4254ca38842e067514d6, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
@@ -15671,6 +15776,8 @@ PrefabInstance:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of d8e1053... Take 4
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
 --- !u!4 &1627068802 stripped
@@ -20388,6 +20495,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
@@ -20521,6 +20629,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
 >>>>>>> parent of d8e1053... Take 4
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
 --- !u!4 &2075994468 stripped
@@ -21163,6 +21273,7 @@ PrefabInstance:
     - target: {fileID: 483021962396319069, guid: 692f365f91bbfb640b0011ed4deeaf34,
         type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -21182,6 +21293,8 @@ PrefabInstance:
 =======
 =======
 >>>>>>> parent of f75f5c2... yalla 2
+=======
+>>>>>>> parent of f75f5c2... yalla 2
       propertyPath: m_LocalRotation.x
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -21196,9 +21309,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of dffa5c0... Yalla
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
       value: 0
@@ -21213,6 +21329,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 7
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       propertyPath: m_LocalRotation.y
       value: 0
@@ -21263,6 +21380,8 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 7
 >>>>>>> parent of dffa5c0... Yalla
+=======
+>>>>>>> parent of f75f5c2... yalla 2
       objectReference: {fileID: 0}
     - target: {fileID: 483021962396319069, guid: 692f365f91bbfb640b0011ed4deeaf34,
         type: 3}
@@ -21464,6 +21583,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
     - target: {fileID: 5232976681253263773, guid: cba55f3dde07b5548a1b16f62428f3b5,
@@ -21472,10 +21594,13 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of dffa5c0... Yalla
 =======
 >>>>>>> parent of d8e1053... Take 4
+=======
+>>>>>>> parent of f75f5c2... yalla 2
 =======
 >>>>>>> parent of f75f5c2... yalla 2
     - target: {fileID: 5232976681253263774, guid: cba55f3dde07b5548a1b16f62428f3b5,
@@ -21572,6 +21697,7 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 118.7
 =======
@@ -21594,6 +21720,9 @@ PrefabInstance:
 =======
       value: 187.2
 >>>>>>> parent of d8e1053... Take 4
+=======
+      value: 118.7
+>>>>>>> parent of f75f5c2... yalla 2
 =======
       value: 118.7
 >>>>>>> parent of f75f5c2... yalla 2
