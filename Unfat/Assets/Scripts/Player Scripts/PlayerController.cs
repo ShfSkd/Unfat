@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
 	public Animator _anim;
 
 	public float _sensitivity = 0.16f;
-	public float _clampDelta = 42f;
+	public float _clampDelta = 5f;
 	public int _weight = 2;
 	public int maxWeight = 5;
 	public float _bounds = 5;
@@ -89,10 +89,13 @@ public class PlayerController : MonoBehaviour
 			{
 				Vector3 pos = _lastMousePosition - Input.mousePosition;
 				pos = new Vector3(pos.x, 0f, pos.y);
+
 				_lastMousePosition = Input.mousePosition;
+
 
 				_anim.SetBool("Grounded", true);
 				Vector3 moveForce = Vector3.ClampMagnitude(pos, _clampDelta);
+
 				_rb.AddForce(-moveForce * _sensitivity - _rb.velocity / _speed, ForceMode.VelocityChange);
 			}
 
@@ -177,6 +180,7 @@ public class PlayerController : MonoBehaviour
 		{
 			LoseWeight(1);
 			Destroy(target.gameObject);
+		
 		}
 		if (target.gameObject.tag == "Finish")
 		{
@@ -196,7 +200,7 @@ public class PlayerController : MonoBehaviour
 	private void Jump()
 	{
 		_anim.SetTrigger("Jump");
-		_rb.velocity = new Vector3(0f, _jumpForce * _verticalVelocity, 2f);
+		_rb.velocity = new Vector3(0f, _jumpForce * _verticalVelocity, 2f)*Time.deltaTime;
 		_anim.SetBool("Grounded", IsGrounded());
 		_inAir = true;
 
@@ -218,7 +222,7 @@ public class PlayerController : MonoBehaviour
 		}
 
 		Debug.DrawRay(_collider.bounds.center, Vector3.down * (Mathf.Infinity + 5f), rayColor);
-		Debug.Log(hit.collider);
+		//Debug.Log(hit.collider);
 		return hit.collider != null;
 
 	}

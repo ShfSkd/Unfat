@@ -13,9 +13,9 @@ public class CameraMovement : MonoBehaviour
 	private void Update()
 	{
 		if (FindObjectOfType <PlayerController>()._canMove)
-			transform.position += Vector3.forward * _cameraSpeed ;
+			transform.position += (Vector3.forward * _cameraSpeed)*Time.deltaTime ;
 
-		_cameraVelocity= Vector3.forward * _cameraSpeed ;
+		_cameraVelocity = (Vector3.forward * _cameraSpeed) * Time.deltaTime * 100f;
 
 		transform.position = player.transform.position + offset;
 	}

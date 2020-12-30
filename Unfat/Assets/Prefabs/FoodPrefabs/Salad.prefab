@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6435823317409359406}
   - component: {fileID: 7943296413498727632}
   - component: {fileID: 4502876563015226857}
+  - component: {fileID: 4175902648033970231}
   m_Layer: 0
   m_Name: Salad
   m_TagString: Lose
@@ -127,3 +128,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4175902648033970231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011262040222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b42c7cc3199acac46b64e555c15eea83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _fx: {fileID: 5466176451856609394, guid: 113d8557ca3c72a43b93055f8c926a90, type: 3}
