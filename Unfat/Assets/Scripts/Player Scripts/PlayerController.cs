@@ -93,7 +93,7 @@ public class PlayerController : MonoBehaviour
 
 				_anim.SetBool("Grounded", true);
 				Vector3 moveForce = Vector3.ClampMagnitude(pos, _clampDelta);
-				_rb.AddForce(-moveForce * _sensitivity - (_rb.velocity / _speed)/2, ForceMode.VelocityChange);
+				_rb.AddForce(-moveForce * _sensitivity - _rb.velocity / _speed, ForceMode.VelocityChange);
 			}
 
 		}
