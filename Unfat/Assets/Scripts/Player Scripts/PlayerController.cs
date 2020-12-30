@@ -84,6 +84,7 @@ public class PlayerController : MonoBehaviour
 
 				_anim.SetBool("Grounded", true);
 				Vector3 moveForce = Vector3.ClampMagnitude(pos, _clampDelta);
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -97,6 +98,9 @@ public class PlayerController : MonoBehaviour
 =======
 				_rb.AddForce(-moveForce * _sensitivity - _rb.velocity / speed, ForceMode.VelocityChange);
 >>>>>>> Stashed changes
+=======
+				_rb.AddForce(-moveForce * _sensitivity - _rb.velocity / _speed, ForceMode.VelocityChange);
+>>>>>>> parent of d8e1053... Take 4
 			}
 		}
 		_rb.velocity.Normalize();
