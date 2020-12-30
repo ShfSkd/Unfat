@@ -61,6 +61,7 @@ crashlytics-build.properties
 
 
 Unfat/Library/Artifacts/21/21e7115f0fab3ec6d98dab06ca1c678a
+<<<<<<< HEAD
 
 git reset --soft HEAD^   -> undo last commit and save changes  
 git reset --hard HEAD~1  -> undo last commit and remove changes
@@ -72,3 +73,5 @@ git clear -df  -> remove all untracked files
 git rm filename -> remove file from index, after your did git add filename 
 git commit --amend -> change message of last commit
 
+=======
+>>>>>>> parent of f75f5c2... yalla 2
