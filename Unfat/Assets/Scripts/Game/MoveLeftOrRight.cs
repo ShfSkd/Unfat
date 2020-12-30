@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class MoveLeftOrRight : MonoBehaviour
 {
-	public float _speed;
-	public float _distance;
+	[SerializeField] float _speed;
+	[SerializeField] float _distance;
+	[SerializeField] bool _right, _dontMove;
 
 	private float _minX, _maxX;
 
-	public bool _right, _dontMove;
 	private bool _stop;
 
 	private void Start()
@@ -35,9 +35,9 @@ public class MoveLeftOrRight : MonoBehaviour
 			}
 		}
 	}
-	private void OnCollisionEnter(Collision target)
+	private void OnTriggerEnter(Collider target)
 	{
-		if (target.gameObject.tag == "White" && target.gameObject.GetComponent<Rigidbody>().velocity.magnitude >1 || target.gameObject.name=="Player")
+		if (target.gameObject.tag == "Lose" && target.gameObject.GetComponent<Rigidbody>().velocity.magnitude >1 || target.gameObject.name=="Player")
 		{
 			_stop = true;
 			GetComponent<Rigidbody>().freezeRotation = false;
