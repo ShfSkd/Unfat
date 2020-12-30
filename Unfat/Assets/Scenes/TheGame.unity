@@ -367,9 +367,6 @@ PrefabInstance:
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
 >>>>>>> parent of dffa5c0... Yalla
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1001 &27454449
 PrefabInstance:
@@ -816,10 +813,7 @@ Transform:
   m_PrefabInstance: {fileID: 1553822071}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1 &51115928
 GameObject:
@@ -859,9 +853,6 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of dffa5c0... Yalla
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1001 &61740353
 PrefabInstance:
@@ -2135,10 +2126,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67944548f2b4254ca38842e067514d6, type: 3}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1 &190413025
 GameObject:
@@ -2172,9 +2160,6 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of dffa5c0... Yalla
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!4 &190433088 stripped
 Transform:
@@ -4603,7 +4588,6 @@ Transform:
 =======
 --- !u!1001 &473180637
 <<<<<<< HEAD
-<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4671,82 +4655,12 @@ PrefabInstance:
 --- !u!1001 &479768268
 =======
 >>>>>>> parent of dffa5c0... Yalla
-=======
->>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 1578782536}
     m_Modifications:
-<<<<<<< HEAD
-    - target: {fileID: 7548910107883308592, guid: f4d7a63b71c6e1d4086a57eecd2376b2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-=======
-    - target: {fileID: 1000011448446114, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_Name
-      value: Burger (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 6.94
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
---- !u!1001 &479768268
-=======
->>>>>>> parent of dffa5c0... Yalla
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1578782536}
-    m_Modifications:
-<<<<<<< Updated upstream
-=======
 <<<<<<< HEAD
     - target: {fileID: 7548910107883308592, guid: f4d7a63b71c6e1d4086a57eecd2376b2,
         type: 3}
@@ -4811,7 +4725,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 108822143}
     m_Modifications:
->>>>>>> Stashed changes
 >>>>>>> parent of dffa5c0... Yalla
     - target: {fileID: 7548910107883308592, guid: f4d7a63b71c6e1d4086a57eecd2376b2,
         type: 3}
@@ -5151,26 +5064,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4168956565481560709, guid: ef16d78ccfecc2546b7b0be1e5194625,
         type: 3}
-<<<<<<< Updated upstream
       propertyPath: m_RootOrder
       value: 10
-=======
-      propertyPath: m_LocalRotation.z
-      value: 0
-<<<<<<< HEAD
-=======
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168956565481560709, guid: ef16d78ccfecc2546b7b0be1e5194625,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.97016895
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168956565481560709, guid: ef16d78ccfecc2546b7b0be1e5194625,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 10
->>>>>>> parent of dffa5c0... Yalla
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4168956565481560709, guid: ef16d78ccfecc2546b7b0be1e5194625,
         type: 3}
@@ -5222,10 +5117,7 @@ PrefabInstance:
     - {fileID: 1919347099714399863, guid: ef16d78ccfecc2546b7b0be1e5194625, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ef16d78ccfecc2546b7b0be1e5194625, type: 3}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!4 &488899445 stripped
 Transform:
@@ -6063,10 +5955,7 @@ Transform:
   m_PrefabInstance: {fileID: 1861051025}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1001 &541453551
 PrefabInstance:
@@ -6139,9 +6028,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0550765fb22bb954ea0412b7153ff417, type: 3}
 =======
 >>>>>>> parent of dffa5c0... Yalla
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!4 &542943700 stripped
 Transform:
@@ -6239,9 +6125,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
 =======
 >>>>>>> parent of dffa5c0... Yalla
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1001 &562920972
 PrefabInstance:
@@ -7033,26 +6916,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4168956565481560709, guid: ef16d78ccfecc2546b7b0be1e5194625,
         type: 3}
-<<<<<<< Updated upstream
       propertyPath: m_RootOrder
       value: 9
-=======
-      propertyPath: m_LocalRotation.z
-      value: 0
-<<<<<<< HEAD
-=======
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168956565481560709, guid: ef16d78ccfecc2546b7b0be1e5194625,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9347637
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168956565481560709, guid: ef16d78ccfecc2546b7b0be1e5194625,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 9
->>>>>>> parent of dffa5c0... Yalla
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4168956565481560709, guid: ef16d78ccfecc2546b7b0be1e5194625,
         type: 3}
@@ -8178,10 +8043,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4d7a63b71c6e1d4086a57eecd2376b2, type: 3}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1 &748457169
 GameObject:
@@ -8215,9 +8077,6 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of dffa5c0... Yalla
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1001 &766210025
 PrefabInstance:
@@ -8771,10 +8630,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4d7a63b71c6e1d4086a57eecd2376b2, type: 3}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!4 &829991676 stripped
 Transform:
@@ -8789,8 +8645,6 @@ Transform:
   m_PrefabInstance: {fileID: 558219736}
   m_PrefabAsset: {fileID: 0}
 >>>>>>> Stashed changes
---- !u!4 &836638051 stripped
-=======
 --- !u!4 &836638051 stripped
 =======
 --- !u!4 &836638051 stripped
@@ -8814,15 +8668,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1123128614}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &847242373 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1123128614}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 --- !u!4 &847242373 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c,
@@ -9240,10 +9085,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67944548f2b4254ca38842e067514d6, type: 3}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1 &896023762
 GameObject:
@@ -10938,21 +10780,8 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370106170}
     m_Modifications:
-<<<<<<< Updated upstream
     - target: {fileID: 7548910107883308592, guid: f4d7a63b71c6e1d4086a57eecd2376b2,
         type: 3}
-=======
-    - target: {fileID: 1000012400448258, guid: 9b21be590f33e0d4ba19fec73ce555da, type: 3}
-      propertyPath: m_Name
-      value: Fries
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013642386698, guid: 9b21be590f33e0d4ba19fec73ce555da, type: 3}
-<<<<<<< HEAD
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013642386698, guid: 9b21be590f33e0d4ba19fec73ce555da, type: 3}
->>>>>>> Stashed changes
       propertyPath: m_LocalPosition.x
       value: -4.7799997
       objectReference: {fileID: 0}
@@ -10964,27 +10793,7 @@ PrefabInstance:
     - target: {fileID: 7548910107883308592, guid: f4d7a63b71c6e1d4086a57eecd2376b2,
         type: 3}
       propertyPath: m_LocalPosition.z
-<<<<<<< Updated upstream
       value: -0.116
-=======
-      value: 0.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013642386698, guid: 9b21be590f33e0d4ba19fec73ce555da, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-=======
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013642386698, guid: 9b21be590f33e0d4ba19fec73ce555da, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.74
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013642386698, guid: 9b21be590f33e0d4ba19fec73ce555da, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.69
->>>>>>> parent of dffa5c0... Yalla
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7548910107883308592, guid: f4d7a63b71c6e1d4086a57eecd2376b2,
         type: 3}
@@ -11001,7 +10810,6 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
     - target: {fileID: 7548910107883308592, guid: f4d7a63b71c6e1d4086a57eecd2376b2,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -11014,20 +10822,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7548910107883308592, guid: f4d7a63b71c6e1d4086a57eecd2376b2,
         type: 3}
-=======
-    - target: {fileID: 4000013642386698, guid: 9b21be590f33e0d4ba19fec73ce555da, type: 3}
-<<<<<<< HEAD
-=======
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013642386698, guid: 9b21be590f33e0d4ba19fec73ce555da, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013642386698, guid: 9b21be590f33e0d4ba19fec73ce555da, type: 3}
->>>>>>> parent of dffa5c0... Yalla
->>>>>>> Stashed changes
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -12015,26 +11809,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 701603467}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-=======
---- !u!4 &1192532912 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1271391347}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
->>>>>>> Stashed changes
 --- !u!4 &1192796583 stripped
-=======
---- !u!4 &1210525784 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4000012609690100, guid: 78dec3a2e9e50fc46882f9cc3751f692,
-    type: 3}
-  m_PrefabInstance: {fileID: 1624298545}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1213031527 stripped
->>>>>>> parent of dffa5c0... Yalla
 Transform:
   m_CorrespondingSourceObject: {fileID: 7689235610816381056, guid: a67944548f2b4254ca38842e067514d6,
     type: 3}
@@ -13976,12 +13751,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  m_SourcePrefab: {fileID: 100100000, guid: 0550765fb22bb954ea0412b7153ff417, type: 3}
-=======
->>>>>>> Stashed changes
 =======
 <<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 0550765fb22bb954ea0412b7153ff417, type: 3}
@@ -14007,10 +13776,6 @@ Transform:
   m_PrefabInstance: {fileID: 1989338729}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of dffa5c0... Yalla
->>>>>>> Stashed changes
 =======
 >>>>>>> parent of dffa5c0... Yalla
 >>>>>>> Stashed changes
@@ -14399,9 +14164,6 @@ Transform:
   - {fileID: 720160530}
 =======
 >>>>>>> parent of dffa5c0... Yalla
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -20193,10 +19955,7 @@ PrefabInstance:
     - target: {fileID: 483021962396319069, guid: 692f365f91bbfb640b0011ed4deeaf34,
         type: 3}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
       propertyPath: m_LocalRotation.w
       value: 1
@@ -20207,7 +19966,6 @@ PrefabInstance:
       propertyPath: m_LocalRotation.x
 =======
       propertyPath: m_LocalRotation.x
-<<<<<<< Updated upstream
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 483021962396319069, guid: 692f365f91bbfb640b0011ed4deeaf34,
@@ -20219,8 +19977,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
 >>>>>>> parent of dffa5c0... Yalla
-=======
->>>>>>> Stashed changes
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 483021962396319069, guid: 692f365f91bbfb640b0011ed4deeaf34,
@@ -20241,28 +19997,12 @@ PrefabInstance:
         type: 3}
 <<<<<<< HEAD
       propertyPath: m_LocalRotation.z
->>>>>>> parent of dffa5c0... Yalla
       value: 0
 =======
       propertyPath: m_RootOrder
       value: 7
 >>>>>>> parent of dffa5c0... Yalla
 >>>>>>> Stashed changes
-      objectReference: {fileID: 0}
-    - target: {fileID: 483021962396319069, guid: 692f365f91bbfb640b0011ed4deeaf34,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 483021962396319069, guid: 692f365f91bbfb640b0011ed4deeaf34,
-        type: 3}
-<<<<<<< HEAD
-      propertyPath: m_LocalRotation.z
-      value: 0
-=======
-      propertyPath: m_RootOrder
-      value: 7
->>>>>>> parent of dffa5c0... Yalla
       objectReference: {fileID: 0}
     - target: {fileID: 483021962396319069, guid: 692f365f91bbfb640b0011ed4deeaf34,
         type: 3}
@@ -20653,9 +20393,6 @@ PrefabInstance:
       value: 0.7071068
 =======
 >>>>>>> parent of dffa5c0... Yalla
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 1092087037005960612, guid: 3c31e71c66be502419e22a0d35dc8c9c,
