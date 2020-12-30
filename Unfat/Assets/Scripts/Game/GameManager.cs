@@ -8,7 +8,9 @@ public class GameManager : MonoBehaviour
 {
 	public static GameManager Instance;
 
-    private Text _currentLevelText, _nextLevelText;
+	public GameObject _breakablePlayer;
+
+	private Text _currentLevelText, _nextLevelText;
 
     private Image _fill;
 
@@ -20,10 +22,13 @@ public class GameManager : MonoBehaviour
 
 	private TextMesh _levelNo;
 
+	PlayerController _playerController;
 	private void Awake()
 	{
 		if (Instance == null)
 			Instance = this;
+
+		_playerController = GetComponent<PlayerController>();
 
 		_currentLevelText = GameObject.Find("CurrentLevelText").GetComponent<Text>();
 		_nextLevelText = GameObject.Find("NextLevelText").GetComponent<Text>();
@@ -43,7 +48,7 @@ public class GameManager : MonoBehaviour
 	{
 		_level = PlayerPrefs.GetInt("Level");
 
-		_levelNo.text = "LEVEL" + _level;
+		_levelNo.text = "LEVEL " + _level;
 
 		_nextLevelText.text = _level.ToString();
 		_currentLevelText.text = _level.ToString();
@@ -53,7 +58,6 @@ public class GameManager : MonoBehaviour
 		//SceneManager.LoadScene("Level" + _level);
 
 	}
-
 	private void Update()
 	{
 		_disatance = Vector3.Distance(_player.transform.position, _finish.transform.position);
@@ -67,4 +71,5 @@ public class GameManager : MonoBehaviour
 		_rightArrow.SetActive(false);
 		_leftArrow.SetActive(false);
 	}
+	
 }

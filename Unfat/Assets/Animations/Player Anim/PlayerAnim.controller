@@ -11,9 +11,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: Grounded
     m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: WallSlide
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1187166954300339342}
   m_Solo: 0
@@ -39,7 +36,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -7919693861661173243}
-    m_Position: {x: 290, y: 220, z: 0}
+    m_Position: {x: -50, y: 200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5913548783819554410}
     m_Position: {x: 300, y: 380, z: 0}
@@ -54,7 +51,7 @@ AnimatorStateMachine:
     m_Position: {x: 501.58707, y: 117.05463, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8713578834558289422}
-    m_Position: {x: 50, y: 250, z: 0}
+    m_Position: {x: -240, y: 350, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 1038694897227294410}
@@ -132,9 +129,6 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: Grounded
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: WallSlide
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7919693861661173243}
