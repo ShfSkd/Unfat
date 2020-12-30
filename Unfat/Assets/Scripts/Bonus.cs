@@ -13,7 +13,6 @@ public class Bonus : MonoBehaviour
 
 	PlayerController playerController;
 
-
 	private void Start()
 	{
 		playerController = FindObjectOfType<PlayerController>();
@@ -32,8 +31,6 @@ public class Bonus : MonoBehaviour
 	{
 		playerController._canMove = false;
 		activateBonus = true;
-
-		playerController._anim.SetBool("Grounded", false);
 	}
 	void ThrowDistance()
 	{

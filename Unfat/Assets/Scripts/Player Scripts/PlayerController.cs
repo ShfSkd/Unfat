@@ -6,38 +6,36 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-	[SerializeField] float _speed = 5;
-	[SerializeField] float _scale = .5f;
-	[SerializeField] float _jumpForce = 20f;
-	[SerializeField] float _verticalVelocity = 5f;
-	[SerializeField] LayerMask _layerMask;
-
-	[HideInInspector]
-	public bool _canMove,_gameStart, _gameOver, _finish, _inAir,_superJump;
-	[HideInInspector]
-	public Animator _anim;
+	private Rigidbody _rb;
+	private Vector3 _lastMousePosition;
+	private Animator _anim;
+	private BoxCollider _collider;
 
 	public float _sensitivity = 0.16f;
 	public float _clampDelta = 42f;
 	public int _weight = 2;
 	public int maxWeight = 5;
+
+	[SerializeField] float speed = 5;
+	[SerializeField] float scale = .5f;
+
+	[SerializeField] LayerMask layerMask;
+
+
 	public float _bounds = 5;
+
+	[SerializeField] private float _jumpForce = 20f;
+
+	[HideInInspector]
+	public bool _canMove, _gameOver, _finish, _inAir;
+
 	public GameObject _breakablePlayer;
-
-
-	private Rigidbody _rb;
-	private Vector3 _lastMousePosition;
-	private BoxCollider _collider;
-	private GameManager _gameManager;
-
-
 
 	private void Awake()
 	{
 		_rb = GetComponent<Rigidbody>();
 		_anim = transform.GetChild(0).GetComponent<Animator>();
 		_collider = GetComponent<BoxCollider>();
-		_gameManager = GetComponent<GameManager>();
 	}
 
 	private void Start()
@@ -46,8 +44,6 @@ public class PlayerController : MonoBehaviour
 	}
 	private void Update()
 	{
-		if (!PlayerManager.isGameStarted) return;
-
 		transform.position = new Vector3(Mathf.Clamp(transform.position.x, -_bounds, _bounds), transform.position.y, transform.position.z);
 
 		if (_canMove)
@@ -75,25 +71,19 @@ public class PlayerController : MonoBehaviour
 	}
 	private void FixedUpdate()
 	{
-		if (Input.GetMouseButtonDown(0))
+		if (Input.GetMouseButtonDown(0) && IsGrounded())
 			_lastMousePosition = Input.mousePosition;
 
-		Move();
-	}
-
-	public void Move()
-	{
 		if (_canMove)
 		{
 			if (Input.GetMouseButton(0))
 			{
 				Vector3 pos = _lastMousePosition - Input.mousePosition;
-				pos = new Vector3(pos.x, 0f, pos.y);
 				_lastMousePosition = Input.mousePosition;
+				pos = new Vector3(pos.x, 0f, pos.y);
 
 				_anim.SetBool("Grounded", true);
 				Vector3 moveForce = Vector3.ClampMagnitude(pos, _clampDelta);
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -111,20 +101,10 @@ public class PlayerController : MonoBehaviour
 =======
 				_rb.AddForce(-moveForce * _sensitivity - _rb.velocity / _speed, ForceMode.VelocityChange);
 >>>>>>> parent of d8e1053... Take 4
-=======
-				_rb.AddForce(-moveForce * _sensitivity - (_rb.velocity / _speed)/2, ForceMode.VelocityChange);
->>>>>>> parent of f75f5c2... yalla 2
 			}
-
-		}
-		else if (!IsGrounded())
-		{
-			_anim.SetBool("Grounded", false);
-
 		}
 		_rb.velocity.Normalize();
 	}
-
 	void GainWeight(int weight)
 	{
 		_weight += weight;
@@ -138,32 +118,32 @@ public class PlayerController : MonoBehaviour
 		//high weight increases mass and scale
 		int clampWeight = Mathf.Clamp(_weight, 0, maxWeight);
 		_weight = clampWeight;
-		var scaleIncrease = new Vector3(_scale, _scale, _scale);
+		var scaleIncrease = new Vector3(scale, scale, scale);
 		switch (_weight)
 		{
 			case 0:
-				_speed = 10;
-				ScaleController(_scale * 0.8f);
+				speed = 10;
+				ScaleController(scale * 0.8f);
 				break;
 			case 1:
-				_speed = 20;
-				ScaleController(_scale * 0.9f);
+				speed = 20;
+				ScaleController(scale * 0.9f);
 				break;
 			case 3:
-				_speed = 30;
-				ScaleController(_scale * 1.25f);
+				speed = 30;
+				ScaleController(scale * 1.25f);
 				break;
 			case 4:
-				_speed = 40;
-				ScaleController(_scale * 1.6f);
+				speed = 40;
+				ScaleController(scale * 1.6f);
 				break;
 			case 5:
-				_speed = 50;
-				ScaleController(_scale * 2f);
+				speed = 50;
+				ScaleController(scale * 2f);
 				break;
 			default:
-				_speed = 30;
-				ScaleController(_scale) ;
+				speed = 30;
+				ScaleController(scale) ;
 				break;
 		}
 	}
@@ -175,7 +155,6 @@ public class PlayerController : MonoBehaviour
 	{
 		_finish = true;
 		_canMove = false;
-		_anim.SetTrigger("Dance");
 		PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level", 1) + 1);
 		yield return new WaitForSeconds(0f);
 		SceneManager.LoadScene("Level" + PlayerPrefs.GetInt("Level"));
@@ -183,7 +162,7 @@ public class PlayerController : MonoBehaviour
 
 	private void OnTriggerEnter(Collider target)
 	{
-		if (target.gameObject.CompareTag("Gain"))
+		if (target.gameObject.CompareTag("Enemy"))
 		{
 			if (!_gameOver && _weight == maxWeight)
 				GameOver();
@@ -193,31 +172,29 @@ public class PlayerController : MonoBehaviour
 				Destroy(target.gameObject);
 			}
 		}
-		else if (target.gameObject.CompareTag("Lose"))
+		else if (target.gameObject.CompareTag("White"))
 		{
 			LoseWeight(1);
 			Destroy(target.gameObject);
+		}
+
+		if (target.gameObject.tag == "Trampoline" && IsGrounded())
+		{
+			Jump();
+			_anim.SetBool("Grounded", true);
+			_inAir = false;
 		}
 		if (target.gameObject.tag == "Finish")
 		{
 			StartCoroutine(NextLevel());
 		}
 	}
-	private void OnCollisionEnter(Collision target)
-	{
-		if (target.gameObject.tag == "Trampoline" )
-		{
-			Jump();
-			_anim.SetBool("Grounded", IsGrounded());
-			_inAir = false;
-		}
-	}
 
 	private void Jump()
 	{
+		_rb.velocity = new Vector3(0f, _jumpForce * 0.5f, 0f);
 		_anim.SetTrigger("Jump");
-		_rb.velocity = new Vector3(0f, _jumpForce * _verticalVelocity, 2f);
-		_anim.SetBool("Grounded", IsGrounded());
+		_anim.SetBool("Grounded", false);
 		_inAir = true;
 
 	}
@@ -225,7 +202,7 @@ public class PlayerController : MonoBehaviour
 	private bool IsGrounded()
 	{
 		RaycastHit hit;
-		Physics.Raycast(_collider.bounds.center, Vector3.down, out hit, Mathf.Infinity + 5f, _layerMask);
+		Physics.Raycast(_collider.bounds.center, Vector3.down, out hit, Mathf.Infinity + 5f, layerMask);
 		Color rayColor;
 
 		if (hit.collider != null)
@@ -243,13 +220,20 @@ public class PlayerController : MonoBehaviour
 
 	}
 
+
+	private void LoseWeight()
+	{
+		Transform scale = GetComponent<Transform>();
+
+
+	}
+
 	private void GameOver()
 	{
 		GameObject brokenSphere = Instantiate(_breakablePlayer, transform.position, Quaternion.identity);
 
 		foreach (Transform o in brokenSphere.transform)
 		{
-			// Slow Motion In death
 			o.GetComponent<Rigidbody>().AddForce(Vector3.forward * _rb.velocity.magnitude, ForceMode.Impulse);
 		}
 
@@ -257,7 +241,6 @@ public class PlayerController : MonoBehaviour
 		_gameOver = true;
 		GetComponent<MeshRenderer>().enabled = false;
 		GetComponent<Collider>().enabled = false;
-		gameObject.SetActive(false);
 
 		Time.timeScale = 0.3f;
 		Time.fixedDeltaTime = Time.timeScale * 0.02f;
