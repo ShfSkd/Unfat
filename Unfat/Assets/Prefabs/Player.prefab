@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: 5232976681253263840}
   - component: {fileID: 5232976681253263841}
   - component: {fileID: 5232976681253263842}
+  - component: {fileID: 5232976681253263843}
   - component: {fileID: 5232976681253263772}
   - component: {fileID: 5232976681253263773}
   - component: {fileID: 507232186}
@@ -221,6 +222,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!135 &5232976681253263843
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232976681253263774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &5232976681253263772
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -249,24 +263,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1246f3408ec45374a8537544daa68dc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
-  _scale: 0.5
-  _jumpForce: 2
-  _verticalVelocity: 5
-  _layerMask:
+  _sensitivity: 0.16
+  _clampDelta: 42
+  _weight: 100
+  layerMask:
     serializedVersion: 2
     m_Bits: 0
+  _bounds: 5
+  _jumpForce: 2
   _canMove: 0
   _gameOver: 0
   _finish: 0
   _inAir: 0
-  _superJump: 0
-  _anim: {fileID: 0}
-  _sensitivity: 0.16
-  _clampDelta: 42
-  _weight: 100
-  maxWeight: 5
-  _bounds: 5
   _breakablePlayer: {fileID: 2160697332779668200, guid: 164def5b1e38a9948954d11fad968729,
     type: 3}
 --- !u!65 &507232186

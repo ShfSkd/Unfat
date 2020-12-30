@@ -13,10 +13,9 @@ GameObject:
   - component: {fileID: 23000010489745992}
   - component: {fileID: 5176896359004477917}
   - component: {fileID: 6485799761298865731}
-  - component: {fileID: 5077744420144987407}
   m_Layer: 0
   m_Name: Burger
-  m_TagString: Gain
+  m_TagString: White
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,18 +107,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreToAdd: 100
---- !u!114 &5077744420144987407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000011448446114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f68ca6041de242044bc37fe82c6cab52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 20
-  minDist: 1
-  target: {fileID: 0}

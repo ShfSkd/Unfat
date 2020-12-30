@@ -8,9 +8,6 @@ TagManager:
   - Enemy
   - Big Health
   - Trampoline
-  - Gain
-  - Coin
-  - Lose
   layers:
   - Default
   - TransparentFX
