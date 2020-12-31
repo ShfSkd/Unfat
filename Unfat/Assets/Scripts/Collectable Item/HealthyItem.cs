@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
-public class CollectableItem : MonoBehaviour
+public class HealthyItem : MonoBehaviour
 {
-	[SerializeField] int scoreToAdd = 100;
+	[SerializeField] int _scoreToRemove = 100;
 	ScoreHandler scoreHandler;
 
 	private void Start()
@@ -12,11 +11,10 @@ public class CollectableItem : MonoBehaviour
 	}
 	private void OnTriggerEnter(Collider other)
 	{
-		if(other.gameObject.CompareTag("Player") && scoreHandler!=null)
+		if (other.gameObject.CompareTag("Player"))
 		{
-			scoreHandler.AddToScore(scoreToAdd);
+			scoreHandler.RemoveFromScore(_scoreToRemove);
 			Destroy(gameObject);
 		}
 	}
-
 }

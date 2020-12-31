@@ -7,23 +7,24 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
 	[SerializeField] float _speed = 5;
-	[SerializeField] float _scale = .5f;
+	[SerializeField] float _scale = 0.5f;
 	[SerializeField] float _jumpForce = 20f;
 	[SerializeField] float _verticalVelocity = 5f;
 	[SerializeField] LayerMask _layerMask;
 
 	[HideInInspector]
-	public bool _canMove,_gameStart, _gameOver, _finish, _inAir,_superJump;
+	public bool _canMove, _gameStart, _gameOver, _finish, _inAir, _superJump, dead;
 	[HideInInspector]
 	public Animator _anim;
 
 	public float _sensitivity = 0.16f;
 	public float _clampDelta = 5f;
-	public int _weight = 500;
-	public int _maxWeight = 1000;
+	public int _weight = 1;
+	public int _maxWeight = 5;
 	public float _bounds = 5;
 	public GameObject _breakablePlayer;
 
+	[SerializeField] GameObject playerMesh;
 
 	private Rigidbody _rb;
 	private Vector3 _lastMousePosition;
@@ -65,7 +66,7 @@ public class PlayerController : MonoBehaviour
 		}
 		else if (!_canMove && !_finish)
 		{
-			if(FindObjectOfType<Bonus>().activateBonus) { return; }
+			if (FindObjectOfType<Bonus>().activateBonus) { return; }
 			if (Input.GetMouseButtonDown(0))
 			{
 				FindObjectOfType<GameManager>().RemoveUI();
@@ -83,7 +84,7 @@ public class PlayerController : MonoBehaviour
 
 		}
 
-		
+
 	}
 
 	public void Move()
@@ -100,7 +101,7 @@ public class PlayerController : MonoBehaviour
 				_anim.SetBool("Grounded", true);
 				Vector3 moveForce = Vector3.ClampMagnitude(pos, _clampDelta);
 
-				moveForce.z = Mathf.Clamp(pos.z, 0,0 );
+				moveForce.z = Mathf.Clamp(pos.z, 0, 0);
 				_rb.AddForce(-moveForce * _sensitivity - _rb.velocity / _speed, ForceMode.VelocityChange);
 			}
 
@@ -123,10 +124,10 @@ public class PlayerController : MonoBehaviour
 	}
 	public void WeightControl()
 	{
-		//high weight increases mass and scale
+		//high weight increases scale
 		int clampWeight = Mathf.Clamp(_weight, 0, _maxWeight);
 		_weight = clampWeight;
-		var scaleIncrease = new Vector3(_scale, _scale, _scale);
+
 		switch (_weight)
 		{
 			case 0:
@@ -138,7 +139,7 @@ public class PlayerController : MonoBehaviour
 				ScaleController(_scale * 0.9f);
 				break;
 			case 3:
-				_speed = 30;
+				_speed = 35;
 				ScaleController(_scale * 1.25f);
 				break;
 			case 4:
@@ -151,13 +152,14 @@ public class PlayerController : MonoBehaviour
 				break;
 			default:
 				_speed = 30;
-				ScaleController(_scale) ;
+				ScaleController(_scale);
 				break;
 		}
 	}
 	void ScaleController(float scale)
 	{
 		transform.localScale = new Vector3(scale, scale, scale);
+
 	}
 	public IEnumerator NextLevel()
 	{
@@ -169,24 +171,26 @@ public class PlayerController : MonoBehaviour
 		//SceneManager.LoadScene("Level" + PlayerPrefs.GetInt("Level"));
 		SceneManager.LoadScene(0);
 	}
-
 	private void OnTriggerEnter(Collider target)
 	{
 		if (target.gameObject.CompareTag("Gain"))
 		{
-			if (!_gameOver && _weight == _maxWeight)
-				GameOver();
-			else
+			if (_weight != _maxWeight)
 			{
-				GainWeight(100);
+				GainWeight(1);
 				Destroy(target.gameObject);
 			}
+			else
+			{
+				dead = true;
+			}
+
 		}
 		else if (target.gameObject.CompareTag("Lose"))
 		{
-			LoseWeight(100);
+			LoseWeight(1);
 			Destroy(target.gameObject);
-		
+
 		}
 		if (target.gameObject.tag == "Finish")
 		{
@@ -195,7 +199,7 @@ public class PlayerController : MonoBehaviour
 	}
 	private void OnCollisionEnter(Collision target)
 	{
-		if (target.gameObject.tag == "Trampoline" )
+		if (target.gameObject.tag == "Trampoline")
 		{
 			Jump();
 			_anim.SetBool("Grounded", IsGrounded());
@@ -206,7 +210,7 @@ public class PlayerController : MonoBehaviour
 	private void Jump()
 	{
 		_anim.SetTrigger("Jump");
-		_rb.velocity = new Vector3(0f, _jumpForce * _verticalVelocity, 2f)*Time.deltaTime;
+		_rb.velocity = new Vector3(0f, _jumpForce * _verticalVelocity, 2f) * Time.deltaTime;
 		_anim.SetBool("Grounded", IsGrounded());
 		_inAir = true;
 
@@ -233,25 +237,29 @@ public class PlayerController : MonoBehaviour
 
 	}
 
-	private void GameOver()
+	public void BreakPlayer()
 	{
-		GameObject brokenSphere = Instantiate(_breakablePlayer, transform.position, Quaternion.identity);
-
-		foreach (Transform o in brokenSphere.transform)
+		if (dead)
 		{
-			// Slow Motion In death
-			o.GetComponent<Rigidbody>().AddForce(Vector3.forward * _rb.velocity.magnitude, ForceMode.Impulse);
+
+
+			GameObject brokenSphere = Instantiate(_breakablePlayer, transform.position, Quaternion.identity);
+
+			foreach (Transform o in brokenSphere.transform)
+			{
+				// Slow Motion In death
+				o.GetComponent<Rigidbody>().AddForce(Vector3.forward * _rb.velocity.magnitude, ForceMode.Impulse);
+			}
+
+			_canMove = false;
+			_gameOver = true;
+			GetComponent<MeshRenderer>().enabled = false;
+			GetComponent<Collider>().enabled = false;
+			playerMesh.SetActive(false);
+
+			Time.timeScale = 0.3f;
+			Time.fixedDeltaTime = Time.timeScale * 0.02f;
+
 		}
-
-		_canMove = false;
-		_gameOver = true;
-		GetComponent<MeshRenderer>().enabled = false;
-		GetComponent<Collider>().enabled = false;
-		gameObject.SetActive(false);
-
-		Time.timeScale = 0.3f;
-		Time.fixedDeltaTime = Time.timeScale * 0.02f;
-
-		SceneManager.LoadScene(0);
 	}
 }

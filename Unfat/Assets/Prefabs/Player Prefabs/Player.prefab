@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 155991676}
   - component: {fileID: 155991677}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ GameObject:
   - component: {fileID: 5232976681253263772}
   - component: {fileID: 5232976681253263773}
   - component: {fileID: 507232186}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -257,6 +257,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   _canMove: 0
+  _gameStart: 0
   _gameOver: 0
   _finish: 0
   _inAir: 0
@@ -265,7 +266,7 @@ MonoBehaviour:
   _sensitivity: 0.16
   _clampDelta: 42
   _weight: 100
-  maxWeight: 5
+  _maxWeight: 1000
   _bounds: 5
   _breakablePlayer: {fileID: 2160697332779668200, guid: 164def5b1e38a9948954d11fad968729,
     type: 3}
