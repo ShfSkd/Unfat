@@ -21,7 +21,6 @@ public class ScoreHandler : MonoBehaviour
 	}
 	public void AddToScore(int addedScore)
 	{
-<<<<<<< Updated upstream
 		_score += addedScore;
 		scoreText.text = _score.ToString();
 	}
@@ -56,18 +55,4 @@ public class ScoreHandler : MonoBehaviour
 				break;
 		}
 	}
-=======
-
-		if (score < 0) return;
-		else
-		{
-			score += addedScore;
-			scoreText.text = score.ToString();
-
-		}
-		
-	}
-	
-
->>>>>>> Stashed changes
 }

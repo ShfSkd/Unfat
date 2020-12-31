@@ -19,13 +19,8 @@ public class PlayerController : MonoBehaviour
 
 	public float _sensitivity = 0.16f;
 	public float _clampDelta = 5f;
-<<<<<<< Updated upstream
 	public int _weight = 1;
 	public int _maxWeight = 5;
-=======
-	public int _weight = 500;
-	public int _maxWeight = 1000;
->>>>>>> Stashed changes
 	public float _bounds = 5;
 	public GameObject _breakablePlayer;
 
@@ -49,7 +44,6 @@ public class PlayerController : MonoBehaviour
 	private void Start()
 	{
 		_inAir = false;
-		_scale = 0.5f;
 	}
 	private void Update()
 	{
@@ -90,11 +84,7 @@ public class PlayerController : MonoBehaviour
 
 		}
 
-<<<<<<< Updated upstream
 
-=======
-		
->>>>>>> Stashed changes
 	}
 
 	public void Move()
@@ -111,11 +101,7 @@ public class PlayerController : MonoBehaviour
 				_anim.SetBool("Grounded", true);
 				Vector3 moveForce = Vector3.ClampMagnitude(pos, _clampDelta);
 
-<<<<<<< Updated upstream
 				moveForce.z = Mathf.Clamp(pos.z, 0, 0);
-=======
-				moveForce.z = Mathf.Clamp(pos.z, 0,0 );
->>>>>>> Stashed changes
 				_rb.AddForce(-moveForce * _sensitivity - _rb.velocity / _speed, ForceMode.VelocityChange);
 			}
 
@@ -138,11 +124,7 @@ public class PlayerController : MonoBehaviour
 	}
 	public void WeightControl()
 	{
-<<<<<<< Updated upstream
 		//high weight increases scale
-=======
-		//high weight increases mass and scale
->>>>>>> Stashed changes
 		int clampWeight = Mathf.Clamp(_weight, 0, _maxWeight);
 		_weight = clampWeight;
 
@@ -193,13 +175,7 @@ public class PlayerController : MonoBehaviour
 	{
 		if (target.gameObject.CompareTag("Gain"))
 		{
-<<<<<<< Updated upstream
 			if (_weight != _maxWeight)
-=======
-			if (!_gameOver && _weight == _maxWeight)
-				GameOver();
-			else
->>>>>>> Stashed changes
 			{
 				GainWeight(1);
 				Destroy(target.gameObject);
@@ -214,11 +190,7 @@ public class PlayerController : MonoBehaviour
 		{
 			LoseWeight(1);
 			Destroy(target.gameObject);
-<<<<<<< Updated upstream
 
-=======
-		
->>>>>>> Stashed changes
 		}
 		if (target.gameObject.tag == "Finish")
 		{
@@ -238,11 +210,7 @@ public class PlayerController : MonoBehaviour
 	private void Jump()
 	{
 		_anim.SetTrigger("Jump");
-<<<<<<< Updated upstream
 		_rb.velocity = new Vector3(0f, _jumpForce * _verticalVelocity, 2f) * Time.deltaTime;
-=======
-		_rb.velocity = new Vector3(0f, _jumpForce * _verticalVelocity, 2f)*Time.deltaTime;
->>>>>>> Stashed changes
 		_anim.SetBool("Grounded", IsGrounded());
 		_inAir = true;
 
@@ -275,7 +243,6 @@ public class PlayerController : MonoBehaviour
 		{
 
 
-<<<<<<< Updated upstream
 			GameObject brokenSphere = Instantiate(_breakablePlayer, transform.position, Quaternion.identity);
 
 			foreach (Transform o in brokenSphere.transform)
@@ -294,11 +261,5 @@ public class PlayerController : MonoBehaviour
 			Time.fixedDeltaTime = Time.timeScale * 0.02f;
 
 		}
-=======
-		Time.timeScale = 0.3f;
-		Time.fixedDeltaTime = Time.timeScale * 0.02f;
-
-		SceneManager.LoadScene(1);
->>>>>>> Stashed changes
 	}
 }
