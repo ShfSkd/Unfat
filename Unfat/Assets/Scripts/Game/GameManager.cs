@@ -67,9 +67,9 @@ public class GameManager : MonoBehaviour
 	}
 	private void Update()
 	{
-		_disatance = Vector3.Distance(player.transform.position, _finish.transform.position);
+		_disatance = Vector3.Distance(_player.transform.position, _finish.transform.position);
 
-		if (player.transform.position.z < _finish.transform.position.z)
+		if (_player.transform.position.z < _finish.transform.position.z)
 			_fill.fillAmount = 1 - (_disatance / _startDistance);
 
 	}

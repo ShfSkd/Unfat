@@ -8,6 +8,9 @@ public class ScoreHandler : MonoBehaviour
 
 	[SerializeField] Text scoreText;
 
+	[SerializeField] int watermelonScore = 0;
+	[SerializeField] Text watermelonScoreText;
+
 	PlayerController player;
 
 	private void Start()
@@ -30,6 +33,11 @@ public class ScoreHandler : MonoBehaviour
 		_score = _clampedScore;
 		_score -= scoreRemoved;
 		scoreText.text = _score.ToString();
+	}
+	public void AddWatermelonScore(int scoreToAdd)
+	{
+		watermelonScore += scoreToAdd;
+		watermelonScoreText.text = "Watermelons " + watermelonScore.ToString();
 	}
 	void WeightController()
 	{
