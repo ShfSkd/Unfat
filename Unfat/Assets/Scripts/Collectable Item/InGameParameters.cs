@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// In-game debug menu
 public class InGameParameters : MonoBehaviour
 {
 	[Header("In Game UI")]
@@ -12,8 +13,8 @@ public class InGameParameters : MonoBehaviour
 
 
 	[Header("Player Movement")]
-    [SerializeField] Text xSpeedText;
-    [SerializeField] Slider xSpeedSlider;
+    [SerializeField] Text throwForceText;
+    [SerializeField] Slider throwForceSlider;
     [SerializeField] Slider clampDeltaSlider;
     [SerializeField] Text clampDeltaText;
     [SerializeField] Text zSpeedText;
@@ -29,10 +30,12 @@ public class InGameParameters : MonoBehaviour
 
 	CameraMovement cam;
     PlayerController controller;
+	Bonus bonus;
 
 	private void Start()
 	{
 		cam=FindObjectOfType<CameraMovement>();
+		bonus = FindObjectOfType<Bonus>();
 
 		controller = FindObjectOfType<PlayerController>();
 
@@ -83,6 +86,21 @@ public class InGameParameters : MonoBehaviour
 		if (clampDeltaText != null)
 		{
 			clampDeltaText.text = clamp.ToString();
+		}
+	}
+	public void ThrowForce(float force)
+	{
+		if (bonus != null)
+		{
+			bonus._throwForce = force;
+		}
+		if (throwForceSlider != null)
+		{
+			throwForceSlider.value = force;
+		}
+		if (throwForceText != null)
+		{
+			throwForceText.text = force.ToString();
 		}
 	}
 	

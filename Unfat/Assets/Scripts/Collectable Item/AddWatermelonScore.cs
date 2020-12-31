@@ -2,20 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Update watermelonScore
 public class AddWatermelonScore : MonoBehaviour
 {
-	ScoreHandler handler;
-	[SerializeField] int scoreToAdd = 100;
+	ScoreWeightHandler _handler;
+	[SerializeField] int _scoreToAdd = 100;
 
 	private void Start()
 	{
-		handler = FindObjectOfType<ScoreHandler>();
+		_handler = FindObjectOfType<ScoreWeightHandler>();
 	}
 	private void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.CompareTag("Player"))
 		{
-			handler.AddWatermelonScore(scoreToAdd);
+			_handler.AddWatermelonScore(_scoreToAdd);
 			Destroy(gameObject);
 		}
 	}

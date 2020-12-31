@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Changes color for each different level
 public class BackgroundImage : MonoBehaviour
 {
     private Color _randomColor;

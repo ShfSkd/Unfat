@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// PlayerControll
 public class PlayerController : MonoBehaviour
 {
 	[SerializeField] float _speed = 5;
@@ -13,7 +14,7 @@ public class PlayerController : MonoBehaviour
 	[SerializeField] LayerMask _layerMask;
 
 	[HideInInspector]
-	public bool _canMove, _gameStart, _gameOver, _finish, _inAir, _superJump, dead;
+	public bool _canMove, _gameStart, _gameOver, _finish, _inAir, _superJump, _dead;
 	[HideInInspector]
 	public Animator _anim;
 
@@ -66,7 +67,7 @@ public class PlayerController : MonoBehaviour
 		}
 		else if (!_canMove && !_finish)
 		{
-			if (FindObjectOfType<Bonus>().activateBonus) { return; }
+			if (FindObjectOfType<Bonus>()._activateBonus) { return; }
 			if (Input.GetMouseButtonDown(0))
 			{
 				FindObjectOfType<GameManager>().RemoveUI();
@@ -182,7 +183,7 @@ public class PlayerController : MonoBehaviour
 			}
 			else
 			{
-				dead = true;
+				_dead = true;
 			}
 
 		}
@@ -237,12 +238,11 @@ public class PlayerController : MonoBehaviour
 
 	}
 
+	// When game is over break he player to pieces
 	public void BreakPlayer()
 	{
-		if (dead)
+		if (_dead)
 		{
-
-
 			GameObject brokenSphere = Instantiate(_breakablePlayer, transform.position, Quaternion.identity);
 
 			foreach (Transform o in brokenSphere.transform)

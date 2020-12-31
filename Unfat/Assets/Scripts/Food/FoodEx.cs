@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Food particle effects
 public class FoodEx : MonoBehaviour
 {
     [SerializeField] GameObject _fx;

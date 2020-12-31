@@ -1,12 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+// Handle the Scene Managment
 public class SceneHandler : MonoBehaviour
 {
-	bool isDead=false;
+	bool _isDead=false;
 	private void Update()
 	{
-		if (isDead) return;
+		if (_isDead) return;
 		GameOver();
 	}
 	public void LoadMainMenu()
@@ -24,11 +26,11 @@ public class SceneHandler : MonoBehaviour
 	}
 	public void GameOver()
 	{
-		if (FindObjectOfType<PlayerController>().dead)
+		if (FindObjectOfType<PlayerController>()._dead)
 		{
 			Invoke("Restart", 2f);
 			FindObjectOfType<PlayerController>().BreakPlayer();
-			isDead = true;
+			_isDead = true;
 		}
 	}
 }

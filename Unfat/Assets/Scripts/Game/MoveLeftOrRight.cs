@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//Making the food move left/right on the platform
 public class MoveLeftOrRight : MonoBehaviour
 {
 	[SerializeField] float _speed;

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// For advanced levels the junk food will chase the player
 public class FoodChaser : MonoBehaviour
 {
 	public float speed = 20.0f;

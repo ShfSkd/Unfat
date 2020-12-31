@@ -1,23 +1,25 @@
 ﻿using UnityEngine;
 
+
+
 public class Bonus : MonoBehaviour
 {
-	[SerializeField] float throwForce = 5f;
-	[SerializeField] float multiplier = 1.2f;
+	public float _throwForce = 5f;
+	[SerializeField] float _multiplier = 1.2f;
 
-	[Tooltip("Time in seconds until next scene loads")] [SerializeField] float startingTime = 4f;
-	float timer = 0;
+	[Tooltip("Time in seconds until next scene loads")] [SerializeField] float _startingTime = 4f;
+	float _timer = 0;
 
-	[HideInInspector] public bool activateBonus;
-	bool forceAdded;
+	[HideInInspector] public bool _activateBonus;
+	bool _forceAdded;
 
-	PlayerController playerController;
+	PlayerController _playerController;
 
 
 	private void Start()
 	{
-		playerController = FindObjectOfType<PlayerController>();
-		timer = startingTime;
+		_playerController = FindObjectOfType<PlayerController>();
+		_timer = _startingTime;
 	}
 	private void Update()
 	{
@@ -25,39 +27,43 @@ public class Bonus : MonoBehaviour
 	}
 	private void FixedUpdate()
 	{
-		if (forceAdded) { return; }
+		if (_forceAdded) { return; }
 		ThrowDistance();
 	}
 	private void OnTriggerEnter(Collider other)
 	{
-		playerController._canMove = false;
-		activateBonus = true;
+		_playerController._canMove = false;
+		_activateBonus = true;
 
-		playerController._anim.SetBool("Grounded", false);
+		_playerController._anim.SetBool("Grounded", false);
 	}
+
+	// Declares how far will the player be thrown away(depends on the player's weight)
 	void ThrowDistance()
 	{
 		//weight determines bonus distance
-		if (activateBonus)
+		if (_activateBonus)
 		{
-			for (int weight = 0; weight < playerController._weight; weight++)
+			for (int weight = 0; weight < _playerController._weight; weight++)
 			{
-				throwForce /= multiplier;
+				_throwForce /= _multiplier;
 			}
-			playerController.GetComponent<Rigidbody>().AddForce(Vector3.forward * throwForce, ForceMode.Impulse);
-			forceAdded = true;
+			_playerController.GetComponent<Rigidbody>().AddForce(Vector3.forward * _throwForce, ForceMode.Impulse);
+			_forceAdded = true;
 		}
 	}
+
+	// Declares how long will it take to end the level
 	void BonusTimer()
 	{
-		if (activateBonus)
+		if (_activateBonus)
 		{
-			timer -= Time.deltaTime;
+			_timer -= Time.deltaTime;
 
-			if (timer <= 0)
+			if (_timer <= 0)
 			{
-				timer = startingTime;
-				StartCoroutine(playerController.NextLevel());
+				_timer = _startingTime;
+				StartCoroutine(_playerController.NextLevel());
 			}
 		}
 	}

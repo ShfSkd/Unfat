@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 
+//Decreases the player's weight(eating healthy food)
 public class HealthyItem : MonoBehaviour
 {
 	[SerializeField] int _scoreToRemove = 100;
-	ScoreHandler scoreHandler;
+	ScoreWeightHandler scoreHandler;
 
 	private void Start()
 	{
-		scoreHandler = FindObjectOfType<ScoreHandler>();
+		scoreHandler = FindObjectOfType<ScoreWeightHandler>();
 	}
 	private void OnTriggerEnter(Collider other)
 	{

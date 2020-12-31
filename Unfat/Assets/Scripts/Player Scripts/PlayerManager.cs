@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Incharge of checking if the game began/finished.
 public class PlayerManager : MonoBehaviour
 {
     public static bool gameOver;

@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 
+//Increases the player's weight(eating junk food)
 public class UnhealthyItem : MonoBehaviour
 {
 	[SerializeField] int scoreToAdd = 100;
-	ScoreHandler scoreHandler;
+	ScoreWeightHandler scoreHandler;
 
 	private void Start()
 	{
-		scoreHandler = FindObjectOfType<ScoreHandler>();
+		scoreHandler = FindObjectOfType<ScoreWeightHandler>();
 	}
 	private void OnTriggerEnter(Collider other)
 	{

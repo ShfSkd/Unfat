@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
+// In-Charge of the game's UI
 public class GameManager : MonoBehaviour
 {
 	public static GameManager Instance;

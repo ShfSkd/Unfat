@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Declares how will the camera follow the player
 public class CameraMovement : MonoBehaviour
 {
 	public float _cameraSpeed = 7f;
@@ -12,7 +13,7 @@ public class CameraMovement : MonoBehaviour
 
 	private void Update()
 	{
-		if (FindObjectOfType<PlayerController>().dead) return;
+		if (FindObjectOfType<PlayerController>()._dead) return;
 
 		if (FindObjectOfType <PlayerController>()._canMove)
 			transform.position += (Vector3.forward * _cameraSpeed)*Time.deltaTime ;
