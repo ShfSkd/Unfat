@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23000010489745992}
   - component: {fileID: 5176896359004477917}
   - component: {fileID: 6485799761298865731}
-  - component: {fileID: 5077744420144987407}
+  - component: {fileID: 1713392999057485646}
   m_Layer: 0
   m_Name: Burger
   m_TagString: Gain
@@ -107,8 +107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65582ab465ec534458248326deb2d24b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreToAdd: 100
---- !u!114 &5077744420144987407
+  scoreToAdd: 20
+--- !u!114 &1713392999057485646
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,9 +117,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000011448446114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f68ca6041de242044bc37fe82c6cab52, type: 3}
+  m_Script: {fileID: 11500000, guid: b42c7cc3199acac46b64e555c15eea83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
-  minDist: 1
-  target: {fileID: 0}
+  _fx: {fileID: 5466176451856609394, guid: 28b95dcac8a7cf04ea7520bbc7b05dd6, type: 3}

@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
 
 		_startDistance = Vector3.Distance(_player.transform.position, _finish.transform.position);
 
-		_tapMessage.SetActive(true);
+/*		_tapMessage.SetActive(true);*/
 
 		//SceneManager.LoadScene("Level" + _level);
 
@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour
 		_hand.SetActive(false);
 		_rightArrow.SetActive(false);
 		_leftArrow.SetActive(false);
-		_tapMessage.SetActive(false);
+		//_tapMessage.SetActive(false);
 
 	}
 
