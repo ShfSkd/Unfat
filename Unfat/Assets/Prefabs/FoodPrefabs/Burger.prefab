@@ -12,8 +12,15 @@ GameObject:
   - component: {fileID: 8675609912931715513}
   - component: {fileID: 8665346206276275423}
   - component: {fileID: 4596151958876424010}
+<<<<<<< Updated upstream:Unfat/Assets/Prefabs/FoodPrefabs/Burger.prefab
   - component: {fileID: 6951284754978156497}
   - component: {fileID: 5379167092448906131}
+=======
+  - component: {fileID: 2455298046502248660}
+  - component: {fileID: 4496577803206304664}
+  - component: {fileID: 1550446955}
+  - component: {fileID: 1550446956}
+>>>>>>> Stashed changes:Unfat/Assets/Prefabs/Burger.prefab
   m_Layer: 0
   m_Name: Burger
   m_TagString: Gain
@@ -30,7 +37,7 @@ Transform:
   m_GameObject: {fileID: 8652335814301577781}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 11.3733225, y: 11.3733225, z: 11.3733225}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -115,9 +122,50 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8652335814301577781}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b42c7cc3199acac46b64e555c15eea83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:Unfat/Assets/Prefabs/FoodPrefabs/Burger.prefab
   _fx: {fileID: 5466176451856609394, guid: 28b95dcac8a7cf04ea7520bbc7b05dd6, type: 3}
+=======
+  speed: 20
+  minDist: 1
+  target: {fileID: 0}
+--- !u!114 &1550446955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652335814301577781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 0, b: 0, a: 0.59607846}
+  outlineWidth: 3
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &1550446956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652335814301577781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15a3c93b8f5bf6e44b561bbed73cf3ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Collect: {fileID: 0}
+  Jump: {fileID: 0}
+  Loops: {fileID: 0}
+  MySong: {fileID: 0}
+  Apples: {fileID: 0}
+>>>>>>> Stashed changes:Unfat/Assets/Prefabs/Burger.prefab
