@@ -5,7 +5,7 @@ public class Bonus : MonoBehaviour
 	[SerializeField] float throwForce = 5f;
 	[SerializeField] float multiplier = 1.2f;
 
-	[Tooltip("Time in seconds until next scene loads")][SerializeField] float startingTime = 4f;
+	[Tooltip("Time in seconds until next scene loads")] [SerializeField] float startingTime = 4f;
 	float timer = 0;
 
 	[HideInInspector] public bool activateBonus;
@@ -25,7 +25,7 @@ public class Bonus : MonoBehaviour
 	}
 	private void FixedUpdate()
 	{
-		if(forceAdded) { return; }
+		if (forceAdded) { return; }
 		ThrowDistance();
 	}
 	private void OnTriggerEnter(Collider other)
@@ -38,14 +38,13 @@ public class Bonus : MonoBehaviour
 	void ThrowDistance()
 	{
 		//weight determines bonus distance
-		if(activateBonus)
+		if (activateBonus)
 		{
-			playerController.GetComponent<Rigidbody>().AddForce(Vector3.forward * throwForce, ForceMode.Impulse);
-
 			for (int weight = 0; weight < playerController._weight; weight++)
 			{
 				throwForce /= multiplier;
 			}
+			playerController.GetComponent<Rigidbody>().AddForce(Vector3.forward * throwForce, ForceMode.Impulse);
 			forceAdded = true;
 		}
 	}

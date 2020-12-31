@@ -8,14 +8,16 @@ public class CameraMovement : MonoBehaviour
 	public Vector3 _cameraVelocity;
 
 	[SerializeField] Transform player;
-	[SerializeField] Vector3 offset;
+	public Vector3 offset;
 
 	private void Update()
 	{
-		if (FindObjectOfType <PlayerController>()._canMove)
-			transform.position += Vector3.forward * _cameraSpeed ;
+		if (FindObjectOfType<PlayerController>().dead) return;
 
-		_cameraVelocity= Vector3.forward * _cameraSpeed ;
+		if (FindObjectOfType <PlayerController>()._canMove)
+			transform.position += (Vector3.forward * _cameraSpeed)*Time.deltaTime ;
+
+		_cameraVelocity = (Vector3.forward * _cameraSpeed) * Time.deltaTime * 100f;
 
 		transform.position = player.transform.position + offset;
 	}

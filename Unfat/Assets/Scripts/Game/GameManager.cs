@@ -10,6 +10,11 @@ public class GameManager : MonoBehaviour
 
 	public GameObject _breakablePlayer;
 
+	// UI
+
+	[SerializeField] GameObject _tapMessage;
+	public Text _appleText;
+
 	private Text _currentLevelText, _nextLevelText;
 
     private Image _fill;
@@ -22,7 +27,7 @@ public class GameManager : MonoBehaviour
 
 	private TextMesh _levelNo;
 
-	PlayerController _playerController;
+	private PlayerController _playerController;
 	private void Awake()
 	{
 		if (Instance == null)
@@ -55,21 +60,26 @@ public class GameManager : MonoBehaviour
 
 		_startDistance = Vector3.Distance(_player.transform.position, _finish.transform.position);
 
+/*		_tapMessage.SetActive(true);*/
+
 		//SceneManager.LoadScene("Level" + _level);
 
 	}
 	private void Update()
 	{
-		_disatance = Vector3.Distance(_player.transform.position, _finish.transform.position);
+		_disatance = Vector3.Distance(player.transform.position, _finish.transform.position);
 
-		if (_player.transform.position.z < _finish.transform.position.z)
+		if (player.transform.position.z < _finish.transform.position.z)
 			_fill.fillAmount = 1 - (_disatance / _startDistance);
+
 	}
 	public void RemoveUI()
 	{
 		_hand.SetActive(false);
 		_rightArrow.SetActive(false);
 		_leftArrow.SetActive(false);
+		//_tapMessage.SetActive(false);
+
 	}
-	
+
 }
