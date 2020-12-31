@@ -14,8 +14,16 @@ public class ScoreHandler : MonoBehaviour
 
 	public void AddToScore(int addedScore)
 	{
-		score += addedScore;
-		scoreText.text = score.ToString();
+
+		if (score < 0) return;
+		else
+		{
+			score += addedScore;
+			scoreText.text = score.ToString();
+
+		}
+		
 	}
+	
 
 }

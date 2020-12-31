@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
 
 	private TextMesh _levelNo;
 
-	PlayerController _playerController;
+	private PlayerController _playerController;
 	private void Awake()
 	{
 		if (Instance == null)

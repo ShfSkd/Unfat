@@ -5,22 +5,21 @@ using UnityEngine.UI;
 
 public class InGameParameters : MonoBehaviour
 {
+	[Header("In Game UI")]
 	[SerializeField] Button inGameDebbugButton;
 	[SerializeField] Button closeButton;
 	[SerializeField] Image inGameDebbugImage = null;
 
 
-
+	[Header("Player Movement")]
     [SerializeField] Text xSpeedText;
     [SerializeField] Slider xSpeedSlider;
-    [SerializeField] Slider zSpeedSlider;
+    [SerializeField] Slider clampDeltaSlider;
+    [SerializeField] Text clampDeltaText;
     [SerializeField] Text zSpeedText;
-
-    [SerializeField] Text zMaxSpeedText;
-    [SerializeField] Slider zMaxSpeedSlider;
+    [SerializeField] Slider zSpeedSlider;
 
     [Header("Camera Values")]
-	CameraMovement cam;
     [SerializeField] Slider camPosX;
     [SerializeField] Text camPosX_Text;
     [SerializeField] Slider camPosY;
@@ -28,6 +27,7 @@ public class InGameParameters : MonoBehaviour
     [SerializeField] Slider camPosZ;
     [SerializeField] Text camPosZ_Text;
 
+	CameraMovement cam;
     PlayerController controller;
 
 	private void Start()
@@ -38,6 +38,10 @@ public class InGameParameters : MonoBehaviour
 
 		inGameDebbugImage.gameObject.SetActive(false);
 		closeButton.gameObject.SetActive(false);
+
+		camPosZ.value = cam.offset.z;
+		camPosY.value = cam.offset.y;
+		camPosX.value = cam.offset.x;
 	}
 	public void OpenDebugUI()
 	{
@@ -51,22 +55,39 @@ public class InGameParameters : MonoBehaviour
 		}
 	}
 
-    public void MaxZSpeed(float maxZ)
+    public void Speed(float maxZ)
 	{
 		if (controller != null)
 		{
             controller._sensitivity = maxZ;
 		}
-		if (zMaxSpeedSlider != null)
+		if (zSpeedSlider != null)
 		{
-            zMaxSpeedSlider.value = maxZ;
+            zSpeedSlider.value = maxZ;
 		}
-		if (zMaxSpeedText != null)
+		if (zSpeedText != null)
 		{
-            zMaxSpeedText.text = maxZ.ToString();
+            zSpeedText.text = maxZ.ToString();
 		}
 	}
-    public void CameraValues(Vector3 camera)
+	public void ClampData(float clamp)
+	{
+		if (controller != null)
+		{
+			controller._clampDelta = clamp;
+		}
+		if (clampDeltaSlider != null)
+		{
+			clampDeltaSlider.value = clamp;
+		}
+		if (clampDeltaText != null)
+		{
+			clampDeltaText.text = clamp.ToString();
+		}
+	}
+	
+
+   /* public void CameraValues(Vector3 camera)
 	{
 		if (cam != null)
 		{
@@ -99,7 +120,54 @@ public class InGameParameters : MonoBehaviour
 		{
 			camPosZ_Text.text = camera.z.ToString();
 		}
+	}*/
+   public void CamX(float x)
+	{
+		if (cam != null)
+		{
+			cam.offset.x = x;
+		}
+		if (camPosX != null)
+		{
+			camPosX.value = x;
+		}
+		if (camPosX_Text != null)
+		{
+			camPosX_Text.text = x.ToString();
+		}
 	}
+	public void CamY(float y)
+	{
+		if (cam != null)
+		{
+			cam.offset.y = y;
+		}
+		if (camPosY != null)
+		{
+			camPosY.value = y;
+		}
+		if (camPosY_Text != null)
+		{
+			camPosY_Text.text = y.ToString();
+		}
+	}
+	public void CamZ(float z)
+	{
+		if (cam != null)
+		{
+			cam.offset.z = z;
+		}
+		if (camPosZ != null)
+		{
+			camPosZ.value = z;
+		}
+		if (camPosZ_Text != null)
+		{
+			camPosZ_Text.text = z.ToString();
+		}
+	}
+
+
 
 	public void Close()
 	{

@@ -8,7 +8,7 @@ public class CameraMovement : MonoBehaviour
 	public Vector3 _cameraVelocity;
 
 	[SerializeField] Transform player;
-	[SerializeField] Vector3 offset;
+	public Vector3 offset;
 
 	private void Update()
 	{

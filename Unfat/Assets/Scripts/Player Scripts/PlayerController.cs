@@ -19,8 +19,8 @@ public class PlayerController : MonoBehaviour
 
 	public float _sensitivity = 0.16f;
 	public float _clampDelta = 5f;
-	public int _weight = 2;
-	public int maxWeight = 5;
+	public int _weight = 500;
+	public int _maxWeight = 1000;
 	public float _bounds = 5;
 	public GameObject _breakablePlayer;
 
@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
 
 		transform.position = new Vector3(Mathf.Clamp(transform.position.x, -_bounds, _bounds), transform.position.y, transform.position.z);
 
+
 		if (_canMove)
 			transform.position += FindObjectOfType<CameraMovement>()._cameraVelocity;
 
@@ -71,14 +72,18 @@ public class PlayerController : MonoBehaviour
 				_canMove = true;
 			}
 		}
+		Move();
 		WeightControl();
 	}
 	private void FixedUpdate()
 	{
 		if (Input.GetMouseButtonDown(0))
+		{
 			_lastMousePosition = Input.mousePosition;
 
-		Move();
+		}
+
+		
 	}
 
 	public void Move()
@@ -92,10 +97,10 @@ public class PlayerController : MonoBehaviour
 
 				_lastMousePosition = Input.mousePosition;
 
-
 				_anim.SetBool("Grounded", true);
 				Vector3 moveForce = Vector3.ClampMagnitude(pos, _clampDelta);
 
+				moveForce.z = Mathf.Clamp(pos.z, 0,0 );
 				_rb.AddForce(-moveForce * _sensitivity - _rb.velocity / _speed, ForceMode.VelocityChange);
 			}
 
@@ -119,7 +124,7 @@ public class PlayerController : MonoBehaviour
 	public void WeightControl()
 	{
 		//high weight increases mass and scale
-		int clampWeight = Mathf.Clamp(_weight, 0, maxWeight);
+		int clampWeight = Mathf.Clamp(_weight, 0, _maxWeight);
 		_weight = clampWeight;
 		var scaleIncrease = new Vector3(_scale, _scale, _scale);
 		switch (_weight)
@@ -160,25 +165,26 @@ public class PlayerController : MonoBehaviour
 		_canMove = false;
 		_anim.SetTrigger("Dance");
 		PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level", 1) + 1);
-		yield return new WaitForSeconds(0f);
-		SceneManager.LoadScene("Level" + PlayerPrefs.GetInt("Level"));
+		yield return new WaitForSeconds(1f);
+		//SceneManager.LoadScene("Level" + PlayerPrefs.GetInt("Level"));
+		SceneManager.LoadScene(0);
 	}
 
 	private void OnTriggerEnter(Collider target)
 	{
 		if (target.gameObject.CompareTag("Gain"))
 		{
-			if (!_gameOver && _weight == maxWeight)
+			if (!_gameOver && _weight == _maxWeight)
 				GameOver();
 			else
 			{
-				GainWeight(1);
+				GainWeight(100);
 				Destroy(target.gameObject);
 			}
 		}
 		else if (target.gameObject.CompareTag("Lose"))
 		{
-			LoseWeight(1);
+			LoseWeight(100);
 			Destroy(target.gameObject);
 		
 		}
@@ -245,5 +251,7 @@ public class PlayerController : MonoBehaviour
 
 		Time.timeScale = 0.3f;
 		Time.fixedDeltaTime = Time.timeScale * 0.02f;
+
+		SceneManager.LoadScene(0);
 	}
 }

@@ -11,6 +11,7 @@ public class ZBound : MonoBehaviour
 	{
 		if (!PlayerManager.isGameStarted) return;
 
-		transform.position = (_player.position - _distance) *Time.deltaTime;
+		transform.position = new Vector3(transform.position.x, transform.position.y,Mathf.Clamp(transform.position.z,1f,-1f));
 	}
+
 }
