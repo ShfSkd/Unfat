@@ -8,11 +8,17 @@ public class SFX : MonoBehaviour
     public AudioSource Loops;
     public AudioSource MySong;
     public AudioSource Apples;
+    public AudioSource Burger;
 
 
     public void PlayCollect()
     {
         Collect.Play();
+    }
+
+    public void PlayBurger()
+    {
+        Burger.Play();
     }
 
     public void PlayJump()

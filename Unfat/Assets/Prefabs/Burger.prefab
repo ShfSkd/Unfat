@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5176896359004477917}
   - component: {fileID: 6485799761298865731}
   - component: {fileID: 1713392999057485646}
+  - component: {fileID: 3000943760363552020}
   m_Layer: 0
   m_Name: Burger
   m_TagString: Gain
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1000011448446114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 10.6050005, y: 10.6050005, z: 10.6050005}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -121,3 +122,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _fx: {fileID: 5466176451856609394, guid: 28b95dcac8a7cf04ea7520bbc7b05dd6, type: 3}
+--- !u!114 &3000943760363552020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011448446114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15a3c93b8f5bf6e44b561bbed73cf3ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Collect: {fileID: 0}
+  Jump: {fileID: 0}
+  Loops: {fileID: 0}
+  MySong: {fileID: 0}
+  Apples: {fileID: 0}
+  Burger: {fileID: 0}

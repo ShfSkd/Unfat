@@ -163,6 +163,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &805539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -282,6 +283,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1303234
 Transform:
   m_ObjectHideFlags: 0
@@ -379,6 +381,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &18662249
 Transform:
   m_ObjectHideFlags: 0
@@ -478,6 +481,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -638,6 +646,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -888,6 +901,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -968,6 +986,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -1048,6 +1071,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -1336,6 +1364,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &55916199
 Transform:
   m_ObjectHideFlags: 0
@@ -1799,6 +1828,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &88271497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,6 +2128,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &107195623
 Transform:
   m_ObjectHideFlags: 0
@@ -2366,6 +2397,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 97922335}
+  _speed: 5
+  _destroyOnFlatform: []
 --- !u!1 &122196678
 GameObject:
   m_ObjectHideFlags: 0
@@ -2449,6 +2482,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -2757,6 +2795,7 @@ MonoBehaviour:
   Loops: {fileID: 996126681}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &133949188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2908,6 +2947,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -2988,6 +3032,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -3042,6 +3091,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &146123668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3109,6 +3159,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -3122,6 +3177,133 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 146123668}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &154376440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 154376441}
+  - component: {fileID: 154376442}
+  m_Layer: 0
+  m_Name: Burger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &154376441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154376440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1762549816}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &154376442
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154376440}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f0c77c90891670a4dbddceee11293766, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &159202170
 GameObject:
   m_ObjectHideFlags: 0
@@ -3157,6 +3339,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &159202172
 Transform:
   m_ObjectHideFlags: 0
@@ -3272,6 +3455,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -3352,6 +3540,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -3432,6 +3625,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -3840,6 +4038,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &179850886
 Transform:
   m_ObjectHideFlags: 0
@@ -3939,6 +4138,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &189179838
 Transform:
   m_ObjectHideFlags: 0
@@ -4020,6 +4220,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -4393,6 +4598,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &224288548
 GameObject:
   m_ObjectHideFlags: 0
@@ -4428,6 +4634,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &224288550
 Transform:
   m_ObjectHideFlags: 0
@@ -4847,6 +5054,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &243931510 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000011262040222, guid: 196fe542ad163b149adf1ca04c19c753,
@@ -4888,6 +5096,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &245384437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4955,6 +5164,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -5009,6 +5223,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!4 &262658340
 Transform:
   m_ObjectHideFlags: 0
@@ -5090,6 +5305,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -5323,6 +5543,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &282107208
 Transform:
   m_ObjectHideFlags: 0
@@ -5396,6 +5617,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &289846266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5530,6 +5752,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &293836500
 Transform:
   m_ObjectHideFlags: 0
@@ -5981,6 +6204,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -6075,6 +6303,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -6161,6 +6394,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -6423,6 +6661,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -6668,6 +6911,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &365217212
 GameObject:
   m_ObjectHideFlags: 0
@@ -6831,6 +7075,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -7060,6 +7309,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &377837398
 GameObject:
   m_ObjectHideFlags: 0
@@ -7095,6 +7345,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &377837400
 Transform:
   m_ObjectHideFlags: 0
@@ -7387,6 +7638,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -7547,6 +7803,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -7627,6 +7888,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -7900,6 +8166,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -8413,6 +8684,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -8509,6 +8785,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -8789,6 +9070,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -9018,6 +9304,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 97922335}
+  _speed: 5
+  _destroyOnFlatform: []
 --- !u!1001 &465227844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9085,6 +9373,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -9248,6 +9541,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &477322331
 GameObject:
   m_ObjectHideFlags: 0
@@ -9331,6 +9625,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -9517,6 +9816,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -9571,6 +9875,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &502678153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9781,6 +10086,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &526712314 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000011262040222, guid: 196fe542ad163b149adf1ca04c19c753,
@@ -9822,6 +10128,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &532999457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9889,6 +10196,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -9943,6 +10255,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!4 &534640632
 Transform:
   m_ObjectHideFlags: 0
@@ -10045,6 +10358,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!4 &538850176
 Transform:
   m_ObjectHideFlags: 0
@@ -10126,6 +10440,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -10264,6 +10583,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &552137923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10390,6 +10710,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &556616613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10457,6 +10778,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -10525,6 +10851,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &564713419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10592,6 +10919,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -10640,6 +10972,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &565131664
 Transform:
   m_ObjectHideFlags: 0
@@ -10797,6 +11130,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &576076648
 GameObject:
   m_ObjectHideFlags: 0
@@ -10864,6 +11198,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!1 &578574954
 GameObject:
   m_ObjectHideFlags: 0
@@ -10994,6 +11329,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &579639006
 Transform:
   m_ObjectHideFlags: 0
@@ -11133,6 +11469,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &589227634
 Transform:
   m_ObjectHideFlags: 0
@@ -11232,6 +11569,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -11312,6 +11654,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -11476,6 +11823,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -11556,6 +11908,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -11636,6 +11993,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -11865,6 +12227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 97922335}
+  _speed: 5
+  _destroyOnFlatform: []
 --- !u!1001 &628578063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11932,6 +12296,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -12081,6 +12450,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -12135,6 +12509,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &656351684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12202,6 +12577,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -12417,6 +12797,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &663130958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12484,6 +12865,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -12564,6 +12950,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -12644,6 +13035,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -12915,6 +13311,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -13259,6 +13660,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -13813,6 +14219,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -13930,6 +14341,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!1 &755849264
 GameObject:
   m_ObjectHideFlags: 0
@@ -14051,6 +14463,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &757406145 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000011262040222, guid: 196fe542ad163b149adf1ca04c19c753,
@@ -14092,6 +14505,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &761549416
 GameObject:
   m_ObjectHideFlags: 0
@@ -14254,6 +14668,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -14302,6 +14721,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &775958371
 Transform:
   m_ObjectHideFlags: 0
@@ -14481,6 +14901,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -14645,6 +15070,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -14725,6 +15155,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &793250399
 Transform:
   m_ObjectHideFlags: 0
@@ -14780,6 +15211,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &796787017
 GameObject:
   m_ObjectHideFlags: 0
@@ -14815,6 +15247,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &796787019
 Transform:
   m_ObjectHideFlags: 0
@@ -14882,6 +15315,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &797657213
 Transform:
   m_ObjectHideFlags: 0
@@ -14955,6 +15389,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &800665383
 GameObject:
   m_ObjectHideFlags: 0
@@ -15117,6 +15552,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -15171,6 +15611,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &831946145
 GameObject:
   m_ObjectHideFlags: 0
@@ -15254,6 +15695,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -15419,6 +15865,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &852503218
 Transform:
   m_ObjectHideFlags: 0
@@ -15821,6 +16268,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &870233147
 Transform:
   m_ObjectHideFlags: 0
@@ -15920,6 +16368,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -16084,6 +16537,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -16164,6 +16622,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &890437405
 Transform:
   m_ObjectHideFlags: 0
@@ -16475,6 +16934,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &903762062
 Transform:
   m_ObjectHideFlags: 0
@@ -16574,6 +17034,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -16708,6 +17173,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &917642101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16972,6 +17438,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -17020,6 +17491,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &928197953
 Transform:
   m_ObjectHideFlags: 0
@@ -17119,6 +17591,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -17294,6 +17771,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -17348,6 +17830,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &941148539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17500,6 +17983,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -17664,6 +18152,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -17758,6 +18251,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -17802,7 +18300,7 @@ MonoBehaviour:
   _finish: 0
   _inAir: 0
   _superJump: 0
-  dead: 0
+  _dead: 0
   _anim: {fileID: 0}
   _sensitivity: 0.16
   _clampDelta: 5
@@ -17945,6 +18443,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &976717826
 Transform:
   m_ObjectHideFlags: 0
@@ -18044,6 +18543,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -18124,6 +18628,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -18204,6 +18713,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -18255,7 +18769,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996126679}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 27f2376b823c48d42b0e8786e31c6f26, type: 3}
@@ -18593,6 +19107,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1019183723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18660,6 +19175,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -18740,6 +19260,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -18874,6 +19399,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1025243916
 GameObject:
   m_ObjectHideFlags: 0
@@ -19015,6 +19541,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!4 &1037425282
 Transform:
   m_ObjectHideFlags: 0
@@ -19239,6 +19766,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1063336274 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000011262040222, guid: 196fe542ad163b149adf1ca04c19c753,
@@ -19280,6 +19808,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1067547218 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000011262040222, guid: 196fe542ad163b149adf1ca04c19c753,
@@ -19321,6 +19850,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1067922620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19388,6 +19918,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -19637,6 +20172,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1080320915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19704,6 +20240,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -19847,6 +20388,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1090085746
 Transform:
   m_ObjectHideFlags: 0
@@ -19920,6 +20462,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1096237767
 GameObject:
   m_ObjectHideFlags: 0
@@ -20082,6 +20625,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1103850130
 Transform:
   m_ObjectHideFlags: 0
@@ -20229,6 +20773,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1116760760
 Transform:
   m_ObjectHideFlags: 0
@@ -20408,6 +20953,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -20738,6 +21288,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1136922985
 Transform:
   m_ObjectHideFlags: 0
@@ -20900,6 +21451,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1139722334
 Transform:
   m_ObjectHideFlags: 0
@@ -20973,6 +21525,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1145621927 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000011262040222, guid: 196fe542ad163b149adf1ca04c19c753,
@@ -21014,6 +21567,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1154177717
 GameObject:
   m_ObjectHideFlags: 0
@@ -21473,6 +22027,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -21527,6 +22086,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1175130896
 GameObject:
   m_ObjectHideFlags: 0
@@ -21727,6 +22287,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1176162313
 Transform:
   m_ObjectHideFlags: 0
@@ -21800,6 +22361,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1183697778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21867,6 +22429,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -21993,6 +22560,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -22284,6 +22856,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -22412,6 +22989,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1223035680
 Transform:
   m_ObjectHideFlags: 0
@@ -22517,6 +23095,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -22565,6 +23148,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1237511872
 Transform:
   m_ObjectHideFlags: 0
@@ -22664,6 +23248,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -22726,6 +23315,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1246768738
 Transform:
   m_ObjectHideFlags: 0
@@ -22825,6 +23415,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1247213479
 Transform:
   m_ObjectHideFlags: 0
@@ -22906,6 +23497,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -23234,6 +23830,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -23666,6 +24267,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -23778,6 +24384,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1328860918
 Transform:
   m_ObjectHideFlags: 0
@@ -23833,6 +24440,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1349367075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23900,6 +24508,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -23980,6 +24593,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -24144,6 +24762,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -24433,6 +25056,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!4 &1381223646 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1343088953497010119, guid: 4b2449c3bd7f8824bbd7934af4a50e2c,
@@ -24566,10 +25190,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e94e4c95e392a748be06a1e4903997a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  throwForce: 120
-  multiplier: 1.2
-  startingTime: 4
-  activateBonus: 0
+  _throwForce: 5
+  _multiplier: 1.2
+  _startingTime: 4
+  _activateBonus: 0
 --- !u!65 &1383390006
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24685,6 +25309,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1387962302
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24752,6 +25377,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -24792,7 +25422,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b5fb775f9afac424a90aeaf7d5178c9a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 936bcf78e218a1f4586c12656451db47, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -24959,6 +25589,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -25039,6 +25674,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -25107,6 +25747,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1444923121
 GameObject:
   m_ObjectHideFlags: 0
@@ -25362,6 +26003,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1457867961
 Transform:
   m_ObjectHideFlags: 0
@@ -25461,6 +26103,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -25719,6 +26366,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1489469518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26017,6 +26665,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1492049412
 Transform:
   m_ObjectHideFlags: 0
@@ -26295,6 +26944,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!4 &1498658512 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000012234704302, guid: 196fe542ad163b149adf1ca04c19c753,
@@ -26502,6 +27152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 97922335}
+  _speed: 5
+  _destroyOnFlatform: []
 --- !u!1 &1513762040 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000011262040222, guid: 196fe542ad163b149adf1ca04c19c753,
@@ -26543,6 +27195,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1514129183
 GameObject:
   m_ObjectHideFlags: 0
@@ -26626,6 +27279,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -26975,6 +27633,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -27055,6 +27718,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -27109,10 +27777,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d43fdbc263b08b647acaf6f2329b0685, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f371645a3aaf8fa4aac6c66d4db3d086, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.461
-  m_Pitch: 2
+  m_Volume: 1
+  m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -27236,6 +27904,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1546149401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27303,6 +27972,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -27482,6 +28156,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -27562,6 +28241,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1573333202
 Transform:
   m_ObjectHideFlags: 0
@@ -27643,6 +28323,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -27723,6 +28408,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -27803,6 +28493,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -28069,6 +28764,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -28217,6 +28917,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1599623017
 Transform:
   m_ObjectHideFlags: 0
@@ -28400,6 +29101,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -28486,6 +29192,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -28566,6 +29277,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -28614,6 +29330,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1621280769
 Transform:
   m_ObjectHideFlags: 0
@@ -28776,6 +29493,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1630577735
 Transform:
   m_ObjectHideFlags: 0
@@ -28955,6 +29673,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -29009,6 +29732,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1647539758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29166,6 +29890,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -29246,6 +29975,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -29855,6 +30589,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -29935,6 +30674,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -30127,6 +30871,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -30181,6 +30930,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1692432010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30248,6 +30998,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -30416,6 +31171,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 97922335}
+  _speed: 5
+  _destroyOnFlatform: []
 --- !u!1 &1728500568
 GameObject:
   m_ObjectHideFlags: 0
@@ -30563,6 +31320,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -30643,6 +31405,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -30877,6 +31644,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1753134014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31124,6 +31892,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -31172,6 +31945,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1761522977
 Transform:
   m_ObjectHideFlags: 0
@@ -31346,6 +32120,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1775260743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31413,6 +32188,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -31694,6 +32474,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -31843,6 +32628,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &1814096743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31910,6 +32696,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -31990,6 +32781,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -32128,6 +32924,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1826651675
 Transform:
   m_ObjectHideFlags: 0
@@ -32363,6 +33160,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -32527,6 +33329,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -32870,6 +33677,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -32950,6 +33762,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -33030,6 +33847,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -33179,6 +34001,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -33354,6 +34181,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -33434,6 +34266,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -33721,6 +34558,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1898081755
 GameObject:
   m_ObjectHideFlags: 0
@@ -33756,6 +34594,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1898081757
 Transform:
   m_ObjectHideFlags: 0
@@ -33964,18 +34803,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 10.6050005
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 10.6050005
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 10.6050005
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011445454492, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -34015,11 +34842,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
 --- !u!4 &1903003037 stripped
@@ -34063,6 +34890,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1903810425
 Transform:
   m_ObjectHideFlags: 0
@@ -34432,6 +35260,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -34556,6 +35389,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1929813167 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000011262040222, guid: 196fe542ad163b149adf1ca04c19c753,
@@ -34597,6 +35431,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1930428201
 GameObject:
   m_ObjectHideFlags: 0
@@ -34744,6 +35579,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -34798,6 +35638,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1942679650
 GameObject:
   m_ObjectHideFlags: 0
@@ -34833,6 +35674,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1942679652
 Transform:
   m_ObjectHideFlags: 0
@@ -35059,6 +35901,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -35253,6 +36100,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &1968931604
 GameObject:
   m_ObjectHideFlags: 0
@@ -35288,6 +36136,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1968931606
 Transform:
   m_ObjectHideFlags: 0
@@ -35481,6 +36330,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -35646,6 +36500,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -35742,6 +36601,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -35875,6 +36739,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &1994777431
 Transform:
   m_ObjectHideFlags: 0
@@ -36013,6 +36878,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -36093,6 +36963,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -36346,6 +37221,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -36426,6 +37306,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 2046816326}
+  Burger: {fileID: 0}
 --- !u!4 &2023216722
 Transform:
   m_ObjectHideFlags: 0
@@ -36535,6 +37416,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -36710,6 +37596,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -36764,6 +37655,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &2039312947
 GameObject:
   m_ObjectHideFlags: 0
@@ -37021,6 +37913,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -37202,6 +38099,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &2061284064
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37433,6 +38331,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -37513,6 +38416,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -37633,6 +38541,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 97922335}
+  _speed: 5
+  _destroyOnFlatform: []
 --- !u!1 &2075205350 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 503028783831915138, guid: 6c23b27ff3532e943a4a73603cb9b785,
@@ -37656,6 +38566,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 1538199766}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1001 &2088482072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37723,6 +38634,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -37913,6 +38829,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -37983,6 +38904,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &2106857632
 GameObject:
   m_ObjectHideFlags: 0
@@ -38040,6 +38962,7 @@ MonoBehaviour:
   Loops: {fileID: 0}
   MySong: {fileID: 0}
   Apples: {fileID: 0}
+  Burger: {fileID: 0}
 --- !u!1 &2113724975
 GameObject:
   m_ObjectHideFlags: 0
@@ -38202,6 +39125,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
@@ -38673,6 +39601,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000943760363552020, guid: 8155176e03f33f44884efb0dd767197c,
+        type: 3}
+      propertyPath: Burger
+      value: 
+      objectReference: {fileID: 154376442}
     - target: {fileID: 5077744420144987407, guid: 8155176e03f33f44884efb0dd767197c,
         type: 3}
       propertyPath: m_Enabled
