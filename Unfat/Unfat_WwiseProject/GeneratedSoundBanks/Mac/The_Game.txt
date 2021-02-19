@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1320823428	Test_Tone			\Default Work Unit\The_Game\Ambiance\Test_Tone	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	563247952	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\The_Game\Test_Tone\Wwise Tone Generator	
+
